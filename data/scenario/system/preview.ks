@@ -1,0 +1,5 @@
+[hidemenubutton] 
+[preload  storage="./data/fgimage/chara/1/po_wondering.png"  ]
+[preload  storage="./data/bgimage/room.jpg"  ]
+[preload  storage="./data/bgimage/title.jpg"  ]
+[return] 
