@@ -1197,7 +1197,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="scotch.ogg"  ]
-[chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="530"  top="124"  reflect="false"  ]
+[chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="306"  top="10"  reflect="false"  ]
 [chara_move  name="SCOTCH"  anim="true"  time="300"  effect="easeInExpo"  wait="true"  left="109"  top="-4"  width="285"  height="190"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="scotch_guitar2.ogg"  ]
 [tb_start_text mode=1 ]
