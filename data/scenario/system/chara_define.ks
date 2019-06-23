@@ -5,6 +5,8 @@
 [chara_new  name="REI"  jname="REI"  storage="chara/2/rei_0.png"  ]
 ;AKAI
 [chara_new  name="AKAI"  jname="AKAI"  storage="chara/3/akai_2.png"  ]
+;SCOTCH
+[chara_new  name="SCOTCH"  jname="SCOTCH"  storage="chara/4/scotch.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

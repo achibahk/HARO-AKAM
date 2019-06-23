@@ -1,52 +1,33 @@
-
-;==============================
-; タイトル画面
-;==============================
+[_tb_system_call storage=system/title_screen.ks]
 
 [hidemenubutton]
 
 [tb_clear_images]
 
-[tb_keyconfig flag=0]
+[tb_keyconfig  flag="0"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="r18_OP.jpg"  ]
+[wait  time="300"  ]
+[l  ]
+[bg  storage="title.jpg"  ]
+*title
 
+[tb_image_show  time="1000"  storage="default/title.png"  width="451"  height="339"  x="96"  y="130"  _clickable_img=""  ]
+[glink  color="black"  text="New&nbsp;Game"  x="600"  y="370"  size="24"  target="*start"  ]
+[glink  color="black"  text="Load&nbsp;Game"  x="600"  y="470"  size="24"  target="*load"  ]
+[s  ]
+*start
 
-	;標準のメッセージレイヤを非表示
-	[tb_hide_message_window]
+[cm  ]
+[tb_image_hide  time="1000"  ]
+[tb_keyconfig  flag="1"  ]
+[jump  storage="scene1.ks"  target=""  ]
+[s  ]
+*load
 
-	;タイトル表示
-	[bg storage ="title.jpg"]
+[tb_image_hide  time="1000"  ]
+[cm  ]
+[showload]
 
-	*title
-
-	
-
-	;タイトル各種ボタン
-	[glink color="black" text="New&nbsp;Game" x=600 y=370 size=24 target="*start"]
-	[glink color="black" text="Load&nbsp;Game" x=600 y=470 size=24 target="*load"]
-
-	
-
-	[s]
-
-	;-------ボタンが押されたときの処理
-
-	*start
-
-	
-
-	[cm]
-	[tb_keyconfig flag=1]
-
-	@jump storage="scene1.ks"
-	[s]
-
-	;--------ロードが押された時の処理
-	*load
-
-	[cm]
-	[showload]
-	[jump target=*title]
-
-	[s]
-
-
+[jump  target="*title"  storage=""  ]
+[s  ]

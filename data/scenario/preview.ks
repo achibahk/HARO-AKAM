@@ -1,355 +1,177 @@
-[_tb_system_call storage=system/preview.ks ]
+[_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="room.jpg"  ]
+[bg  time="10"  method="crossfade"  storage="1711daily10_sample.jpg"  ]
 [tb_show_message_window] 
 [chara_mod  name="HARO"  time="10"  cross="true"  storage="chara/1/po_wondering.png"  ]
-[chara_show  name="AKAI"  time="10"  wait="true"  storage="chara/3/akai_2.png"  width="314"  height="628"  left="295"  top="28"  reflect="false"  ]
-[chara_show  name="REI"  time="10"  wait="true"  storage="chara/2/rei_0.png"  width="324"  height="647"  left="454"  top="52"  reflect="false"  ]
-[chara_move  name="HARO"  anim="false"  time="10"  effect="easeInQuad"  wait="false"  left="227"  top="184"  width="240"  height="240"  ]
-[chara_move  name="AKAI"  anim="false"  time="10"  effect="linear"  wait="false"  left="266"  top="11"  width="314"  height="628"  ]
-[chara_move  name="REI"  anim="false"  time="10"  effect="linear"  wait="false"  left="600"  top="39"  width="324"  height="647"  ]
+[chara_show  name="AKAI"  time="10"  wait="true"  storage="chara/3/akai_2.png"  width="307"  height="616"  left="289"  top="23"  reflect="false"  ]
+[chara_show  name="REI"  time="10"  wait="true"  storage="chara/2/rei_0.png"  width="324"  height="647"  left="556"  top="10"  reflect="false"  ]
+[chara_move  name="HARO"  anim="true"  time="10"  effect="linear"  wait="false"  left="39"  top="220"  width="240"  height="240"  ]
+[chara_move  name="SCOTCH"  anim="false"  time="10"  effect="easeInCirc"  wait="false"  left="27"  top="37"  width="285"  height="190"  ]
+[chara_move  name="AKAI"  anim="true"  time="10"  effect="linear"  wait="false"  left="104"  top="25"  width="307"  height="616"  ]
+[chara_move  name="REI"  anim="true"  time="10"  effect="linear"  wait="false"  left="600"  top="39"  width="324"  height="647"  ]
 [mask_off time=10]
 [tb_start_text mode=1 ]
-哈囉開始翻赤井皮夾，發現有趣的東西就叼出來了[p]
+#
+[font color=BURLYWOOD]降谷的臉沉了下來，面頰明顯泛紅。[resetfont][p]
+#降谷零
+不說這個了，那張照片你怎麼還留著？[p]
+#赤井秀一
+嘛，這大概是我唯一留存的、威士忌三人組的照片吧。[p]
+倒是我才要問你怎麼會有我的照片呢？[p]
+#
+[font color=BURLYWOOD]赤井亮出不知從何時扒走的、對方的手機，[p]
+連指紋認證、密碼那些都被輕易破解，把螢幕中的照片給大方秀了出來。[resetfont][p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉翻出一張發票"  x="341"  y="185"  width=""  height=""  _clickable_img=""  target="*invoice"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉翻出一張寫有字的紙條"  x="306"  y="253"  width=""  height=""  _clickable_img=""  target="*note"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#降谷零
+……想也知道是為了搜查用的啊！[p]
+#赤井秀一
+喔？[p]
+#
+[font color=BURLYWOOD]看見赤井那一貫充滿挑釁、游刃有餘的表情，[p]
+降谷彷彿感覺到腦中最後一根理智線「啪」一聲斷裂。[resetfont][p]
+[_tb_end_text]
+
+[chara_hide  name="AKAI"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_move  name="REI"  anim="true"  time="300"  effect="easeOutQuint"  wait="true"  left=""  top=""  width="324"  height="647"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="guitar_music.ogg"  ]
+[camera  time="1000"  zoom="1.5"  wait="true"  x="0"  y="70"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
+[tb_start_text mode=1 ]
+#降谷零
+笨蛋！你知道我有多在意嗎？[p]
+為什麼要為了我獨自扛下一切？[p]
+[_tb_end_text]
+
+[camera  time="1000"  zoom="2"  wait="true"  x="-20"  y="100"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
+[tb_start_text mode=1 ]
+#降谷零
+蘇格蘭的事情也好、自己是由FBI派來臥底的事也好，[p]
+還有當我不惜一切想要證明你還活著的時候也是……[p]
+[_tb_end_text]
+
+[reset_camera  time="1000"  wait="true"  ]
+[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="0"  top="0"  width="324"  height="647"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/akai_2.png"  width="307"  height="616"  left="577"  top="-1"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#赤井秀一
+……………………。[p]
+#
+[font color=BURLYWOOD]那個在人前始終堅強、自信的降谷，突然瞬間爆發埋藏已久的壓力與懦弱。[p]
+赤井雖感到驚訝，但仍然沉住了氣。[p]
+如果兩方都處在激昂的情緒中，事情則會變得更難處理，甚至導向不好的結局。[p]
+這可不是他所樂見的。[p]
+兩人已經承受太多難以負荷的情緒，是時候該坦承並拋下它們，才能昂首迎接更多可能性的未來。[p]
+屬於兩人的……未來。[p]
+
+此時的赤井十分明白——他，赤井秀一，不能再失去降谷零。[p]
+[resetfont][p]
+[_tb_end_text]
+
+[glink  color="black"  storage="scene1.ks"  size="20"  text="把降谷攬入懷裡"  x="362"  y="196"  width=""  height=""  _clickable_img=""  target="*po_hug"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="站在原地，不做肢體接觸"  target="*po_donttouch"  x="321"  y="278"  width=""  height=""  _clickable_img=""  ]
 [s  ]
-*invoice
+*po_hug
 
 [tb_start_text mode=1 ]
-是買一打波本酒的發票，赤承認酗酒，[p]
-因為有喜歡的人(降谷不自覺的緊張了)但不知要怎麼做才好，[p]
-表示那人過去注視著他的目光移開了讓他更加惶恐，最後問安有何建議[p]
+#
+[font color=BURLYWOOD]於是下一秒，赤井便把降谷用力攬入懷中，著實嚇了降谷一跳。[resetfont][p]
 [_tb_end_text]
 
-[jump  storage="scene1.ks"  target="*muck_3"  ]
-*note
-
+[chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="234"  top="4"  width="307"  height="616"  ]
 [tb_start_text mode=1 ]
-是高級酒店餐廳名稱和訂位時間，[p]
-赤表示有喜歡的人(降谷不自覺的緊張了)想約出去但是不知道怎麼做才好，[p]
-表示那人過去注視著他的目光移開了讓他更加惶恐，最後問安有何建議[p]
+
+#降谷零
+欸！你幹嘛？放開我！[p]
+
+#赤井秀一
+我不放喔，再也不放了。[p]
+
+#降谷零
+你什麼意思……？[p]
+
+#赤井秀一
+我怎麼捨得繼續看你獨自一人在悲傷中鑽牛角尖？[p]
+那些該過去的，就讓它過去吧，不要再緊抓不放了。[p]
+
+#降谷零
+……………………！！[p]
+#
+[font color=BURLYWOOD]降谷聽完這番話後，心中那些結一般的雜亂思緒突然間就被梳理開來，[p]
+身體頓時如釋重負，淚水止不住地流著……[resetfont][p]
 [_tb_end_text]
 
-[jump  storage="scene1.ks"  target="*muck_3"  ]
-[s  ]
-*muck_3
-
 [tb_start_text mode=1 ]
-安小心翼翼的建議從朋友開始。赤跟著問安有無喜歡的人，[p]
-安表示不知道、不確定。[p]
-哈囉發現主人有點猶豫，但根據哈囉對主人的觀察，[p]
-主人肯定也喜歡這個叫赤井的只是主人自己不知道[p]
+#赤井秀一
+傻瓜，怎麼又哭了呢？答應我，未來一起走下去好嗎？[p]
 
-[_tb_end_text]
+[font color=BURLYWOOD]這種像是少女漫畫或偶像劇才會出現的話，讓降谷不禁在心頭唾棄，同時卻又莫名感動。[p]
+在內心一番掙扎後，終於還是選擇相信自己的直覺與情感，輕輕點了點頭。[resetfont][p]
 
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉舔主人的手手"  target="*licking"  x="353"  y="171"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉對主人汪汪叫"  target="*wowo"  x="352"  y="249"  width=""  height=""  _clickable_img=""  ]
-[s  ]
-*licking
+#降谷零
+嗯……[p]
 
-[tb_start_text mode=1 ]
-Licking.[p]
-Lick~~~~ING~~~~~~~~~[p]
-[_tb_end_text]
+[font color=BURLYWOOD]赤井主動牽上降谷的手，兩人相視一笑。[p]
+今後他們無須再害怕了，那個擁有彼此作為依靠的未來已經展開。[p]
+PO - GOOD END1.[resetfont][p]
 
-[jump  storage="scene1.ks"  target="*ENDING_MUCK"  ]
-[s  ]
-*wowo
-
-[playse  volume="100"  time="1000"  buf="0"  storage="dog_bark2.ogg"  ]
-[tb_start_text mode=1 ]
-WoWoWo![p]
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*ENDING_MUCK"  ]
-[s  ]
-*ENDING_MUCK
-
-[tb_start_text mode=1 ]
-赤認為哈囉可以了解安的心思，但安沒有發覺，[p]
-安這才接受自己的原來是喜歡赤井的[p]
-赤電話響起而必須回去工作[p]
-赤表示說了這麼多心理話，兩人應該可以算朋友了，而後就各自忙碌。光球將兩人交給哈囉。End[p]
-[_tb_end_text]
-
-[s  ]
-*waiting_rei
-
-[tb_start_text mode=1 ]
-#赤井
-喔！[p]
-
-#
-聽降谷這麼一說，赤井也冒出了換掉身上這件被汗水浸溼的襯衫的想法，[p]
-於是走進降谷房間。[p]
-
-房間意外得簡潔，絲毫沒有多餘的東西。[p]
-先行抓住赤井目光的是……[p]
-
-
-[_tb_end_text]
-
-[glink  color="black"  storage="scene1.ks"  size="20"  text="吉他"  x="379"  y="202"  width=""  height=""  _clickable_img=""  target="*guitar"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="筆記型電腦"  x="348"  y="282"  width=""  height=""  _clickable_img=""  target="*notebook"  ]
-[s  ]
-*guitar
-
-[tb_start_text mode=1 ]
-#赤井
-蘇格蘭……(面露悲傷)[p]
-
-#
-那是把老舊的吉他。即使看得出它是被愛惜著的，[p]
-但還是不免有些用過的痕跡。[p]
-赤井看著看著，終究禁不住誘惑地伸手拿起，[p]
-輕放在自己盤坐的兩腿間然後撥弄了幾個音弦。[p]
-
-#
-而降谷剛好幫哈囉清洗完畢。[p]
-聽到吉他聲時還以為是錯覺，抱著疑惑走進房間一看，[p]
-果不其然是有人正彈著自己的吉他。[p]
-
-#降谷
-赤井……？[p]
-
-#
-原本專注在弦上、[p]
-一時忘我的赤井這才回過神來。[p]
-
-#赤井
-啊、我不該隨便碰你的東西，[p]
-抱歉……對了，那隻狗呢？[p]
-
-#降谷
-哈囉嗎？在客廳幫牠把毛吹乾後就睡著了。[p]
-
-#
-降谷也席地而坐，伸手接過赤井懷裡的吉他，[p]
-同樣不自覺地撥弄起琴弦。[p]
-
-#降谷
-我常在房間彈著吉他，所以每次聽到吉他聲就會想起那個人，[p]
-彈的也都是他常彈的那些曲子。哈囉都會靜靜坐在旁邊，有次還彈了《故鄉》給牠聽呢……[p]
-
-#
-赤井默默看著降谷藏著悲傷的淺笑，[p]
-心中百感交集。此時降谷抬起頭來。[p]
-
-#降谷
-但就像我之前說的，我確實很感謝你為我所做的一切……[p]
-不，不光是我，還有他，甚至是我們得以安然棲身的現在……[p]
-都是多虧了你當下的決定與判斷……[p]
-
-#赤井
-降谷君……[p]
-#
-最後，降谷還是不禁落下了淚，氣氛變得凝重起來。[p]
-
-#赤井
-其實，這個就是我剛才說在找的重要物品。[p]
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*po_1"  ]
-[s  ]
-*notebook
-
-[tb_start_text mode=1 ]
-#
-輕薄的筆電混在一群稍顯凌亂的書堆裡，[p]
-確實能達到掩人耳目的效果；[p]
-而且若真有不速之客闖進屋裡翻找，[p]
-以他們一貫粗魯的搜索方式，[p]
-很容易一個不小心就把誤以為是書的筆電給摔壞了。[p]
-
-#
-赤井一邊想著，一邊抽出了筆電。[p]
-#
-打開電源，桌面不意外得十分乾淨。[p]
-不過同樣身為特務，赤井就是有辦法調出自己所要的資料——即便被密碼鎖定還需重重認證。[p]
-#
-赤井在乎的，就是剛才幫降谷找狗時意外從他手機裡看見的自己的照片……[p]
-#
-事實證明他確實沒有錯看。在眾多影像檔裡，不但有數張自己的照片——[p]
-不論是仍在組織臥底還是以FBI身分活動時——[p]
-可見降谷確實很早就開始對他進行調查。然而再次引他注目的是，[p]
-那張威士忌組因任務而到遊樂園被拍下的照片。[p]
-對，正與剛才被狗狗叼走、現正躺在自己襯衫口袋的照片一模一樣。[p]
-
-#降谷
-啊、赤井，我幫哈囉洗好澡了，你要不要也乾脆沖一下……[p]
-嗯？你、啊！[p]
-#
-降谷立即衝過去把筆電用力闔上，[p]
-模樣極為驚慌，下一秒便怒瞪赤井。[p]
-
-#赤井
-呃、抱歉，我不該擅自動你的東西……[p]
-
-#降谷
-你……看了什麼？[p]
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*po_1"  ]
-[s  ]
-*po_1
-
-[tb_start_text mode=1 ]
-#
-赤井絲毫沒有猶豫、鐵了心般地拿出口袋裡的相片，[p]
-上頭的泥濘與潮溼讓降谷很快就明白。[p]
-
-此時降谷感到……[p]
-
-[_tb_end_text]
-
-[glink  color="black"  storage="scene1.ks"  size="20"  text="疑惑"  x="423"  y="187"  width=""  height=""  _clickable_img=""  target="*confusing"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="感動"  x="421"  y="267"  width=""  height=""  _clickable_img=""  target="*touching"  ]
-[s  ]
-*confusing
-
-[tb_start_text mode=1 ]
-#
-降谷露出疑惑的表情。[p]
-
-#降谷
-難道……這就是你說的那個很重要的東西？[p]
-被哈囉帶走的？[p]
-
-#赤井
-沒錯。[p]
-#
-狹小的房裡頓時充滿偌大的沉默。[p]
-
-#降谷
-為什麼……原來連你也被困在回憶中……[p]
-我還以為只有我一個人在痛苦……[p]
-
-#赤井
-不是這樣的，降谷君。[p]
-我之所以隨身帶著這張照片，[p]
-並不是為了他，而是……因為你。[p]
-#
-赤井的這番話令降谷更加不解，[p]
-眉頭皺得更深了。[p]
-
-#赤井
-其實那天在天台做的決定，並不完全是為了鞏固大局，[p]
-有一半的原因是為了保護你，我捨不得看你知道真相後的表情……[p]
-
-#降谷
-呵……這是你身為FBI探員最後的微弱人性嗎？[p]
-
-#赤井
-不，是因為我喜歡你。[p]
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*po_love_you"  ]
-[s  ]
-*touching
-
-[tb_start_text mode=1 ]
-#
-降谷先是驚訝，但臉上隱隱約約流露出感動。[p]
-
-#降谷
-難道……這就是你說的那個很重要的東西？被哈囉帶走的？[p]
-
-#赤井
-沒錯。[p]
-#
-狹小的房裡頓時充滿偌大的沉默。[p]
-
-#降谷
-為什麼……原來連你也被困在回憶中……[p]
-我還以為只有我一個人在痛苦……[p]
-
-#赤井
-不是這樣的，降谷君。我之所以隨身帶著這張照片，[p]
-並不是為了他，而是……因為你。[p]
-#
-赤井的這番話令降谷不解，眉頭皺了起來。[p]
-
-#赤井
-其實那天在天台做的決定，並不完全是為了鞏固大局，有一半的原因是為了保護你，我捨不得看你知道真相後的表情……[p]
-
-#降谷
-呵……這是你身為探員最後的微弱人性嗎？[p]
-
-#赤井
-不，是因為我喜歡你。[p]
-
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*po_love_you"  ]
-[s  ]
-*po_love_you
-
-[tb_start_text mode=1 ]
-#
-話一出口，空氣瞬間凝結。[p]
-降谷除了訝異外，更多的是不知所措。[p]
-
-#降谷
-你知道的、我沒有那個意思……[p]
-我只是仍然被回憶給困住，那件事對我衝擊太大……僅此而已。[p]
-
-#赤井
-沒關係，不管你會不會接受這份心意，[p]
-我都想告訴你。[p]
-#
-因為把愛意說了出來，赤井顯得鬆了口氣。[p]
-儘管對方沒有打算一起共度今後的人生，但至少他們已把話給說開，[p]
-承認彼此都還沉浸在事件的傷痛中，這就算是種正面面對和進步了。[p]
-
-#降谷
-其實在得知真相並向你道謝後，[p]
-我一直都想再找時間跟你認真談談，卻又感到莫名害怕……[p]
-
-#赤井
-沒關係，我們從今以後都不用再被這件事給束縛，[p]
-也不需感到害怕了。[p]
-
-#降谷
-嗯，這也是那人所希望的吧。[p]
-希望他在天上能過著原本該有的平靜日子。[p]
-
-#赤井
-我相信他會的。[p]
-
-#降谷
-「蘇格蘭……」[p]
-
-#赤井
-「蘇格蘭……」[p]
-#
-小光球從房間飛至客廳上空，停在哈囉面前。原本因疲憊而睡著的哈囉在這時醒了過來，看著光球一閃一爍，向空中「汪、汪」兩聲。[p]
-
-#哈囉
-謝謝您！[p]
-現在主人跟那個臭臭赤井都沒事了，[p]
-他們之後都會過得很快樂！[p]
-#
-光球持續閃爍，最後消失無蹤。[p]
-#
-原本坐起的哈囉又趴了下來，[p]
-閉上眼，繼續作牠的美夢。[p]
-
-END[p]
 [_tb_end_text]
 
 [s  ]
-*rei_photo
+*po_donttouch
 
 [tb_start_text mode=1 ]
-#降谷
-這就是你重要的東西？[p]
-#
-(按:這裡未有劇本,先給你一個重選)[p]
+#赤井秀一
+蘇格蘭的事情，我很抱歉……那是我沒有料想到的發展。[p]
+當下也沒多想，就把責任攬到自己身上。我想那樣是最好的。[p]
+已經承受同伴死亡的你，絕對不能再遭受臥底身分曝光的雙重打擊。[p]
+那麼就由我來吧。我這個FBI即使被放逐，還是能從組織外部提供協助；[p]
+然而你的公安身分一旦暴露，加上又失去了蘇格蘭，就必須重新再找方法讓公安的勢力重新滲入組織。[p]
+
+#降谷零
+……[p]
+
+#赤井秀一
+因為即使知道我是FBI派來的臥底，以你的個性，還是不會輕易和我們合作吧？[p]
+但我卻可以，除了能私下調查，只要有心還能與公安搭上線做聯合搜查。[p]
+之後的發展你也知道了，多虧各方的合作才讓組織得以殲滅，不是嗎？[p]
+
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+[font color=BURLYWOOD]劈哩啪啦地說了一長串。[p]
+赤井知道對方並不愛聽，甚至可能心底是明白自己的用意的，卻因為倔降的個性而不願承認，[p]
+非得從他人口中、一字一句確切地說出才甘願面對。[resetfont][p]
+#降谷零
+……[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+[font color=BURLYWOOD]而那人的反應也在赤井預料之中。[resetfont][p]
+#赤井秀一
+所以，之後我們也繼續合作好嗎？我指的是我們兩人的未來。[p]
+#降谷零
+……………………。[p]
+[font color=BURLYWOOD]這個降谷零真的是很麻煩呢。赤井不禁這麼想道。果然還是得由自己主動出擊才行。[p]
+沉默環繞在兩人之間。降谷等紛亂的思緒全都整理好了才又緩緩開口。[resetfont][p]
+#降谷零
+今後也請多多指教了……赤井秀一。[p]
+
+
+[_tb_end_text]
+
+[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="398"  top="-6"  width="324"  height="647"  ]
+[tb_start_text mode=1 ]
+[font color=BURLYWOOD]降谷輕輕牽上赤井的手，對自己和對方的真實情感投降。[p]
+而後兩人相視一笑。[p]
+PO - GOOD END2.[resetfont][p]
+[_tb_end_text]
+
+[s  ]
 [jump  storage="scene1.ks"  target="*photo_selection"  ]
 [s  ]
+[chara_show  name="undefined"  time="1000"  wait="true"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_move  name="HARO"  anim="false"  time="300"  effect="linear"  wait="true"  ]
