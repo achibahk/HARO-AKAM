@@ -91,7 +91,7 @@
 [_tb_end_text]
 
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="130"  top="150"  reflect="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="scotch.ogg"  fadein="false"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="scotch.ogg"  fadein="false"  ]
 [tb_start_text mode=1 ]
 #哈囉
 你是誰？[p]
@@ -325,13 +325,18 @@ END。[resetfont][p]
 可是主人看到你才會開心，快跟我回去。[p]
 
 #
-[font color=BURLYWOOD]赤井用眼角餘光確認周圍後，便蹲低搔起哈囉的下巴。[p]
-趁哈囉舒服的抬頭時，把整隻狗翻看一遍，[p]
-檢查狗身上有沒有竊聽器，或其他生物武器。[resetfont][p]
+[font color=BURLYWOOD]赤井用眼角餘光確認周圍後，便蹲低搔起哈囉的下巴。[resetfont][p]
+
 [_tb_end_text]
 
 [quake  time="600"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="chihuahua-puppy-whine.ogg"  ]
+[tb_start_text mode=1 ]
+#
+[font color=BURLYWOOD]趁哈囉舒服的抬頭時，把整隻狗翻看一遍，[p]
+檢查狗身上有沒有竊聽器，或其他生物武器。[resetfont][p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #赤井秀一
 看來真的只是隻偷跑出來玩，還想喝波本的狗啊……[p]
@@ -561,7 +566,7 @@ END。[resetfont][p]
 小光球，你可以告訴我怎麼回主人家嗎？[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="scotch_guitar3.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="scotch_guitar3.ogg"  ]
 [tb_start_text mode=1 ]
 #小光球
 ……。[p]
@@ -651,7 +656,7 @@ END。[resetfont][p]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="snowuta_017_sample.jpg"  ]
 [chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/akai_2.png"  width="314"  height="628"  left="295"  top="28"  reflect="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="morning_birds.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="morning_birds.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
 #
 [font color=LIGHTSTEELBLUE]（清晨，赤井秀一家）[resetfont][p]
@@ -902,8 +907,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [glink  color="black"  storage="scene1.ks"  size="20"  text="降谷撿起哈囉咬在嘴裡的照片。"  x="268"  y="190"  width=""  height=""  _clickable_img=""  target="*rei_photo"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="照片在掉一旁，赤井秀一趁降谷不注意時收進口袋"  x="216"  y="288"  width=""  height=""  _clickable_img=""  target="*akai_photo"  ]
-[stopse  time="1000"  buf="0"  ]
 [s  ]
+[stopse  time="1000"  buf="0"  ]
 *akai_photo
 
 [tb_start_text mode=1 ]
@@ -1714,6 +1719,7 @@ PO-BAD END[p]
 
 *rei_photo
 
+[stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #降谷零
 ……。[p]
