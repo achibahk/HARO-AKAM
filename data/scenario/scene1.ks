@@ -1319,6 +1319,9 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 在緊張嗎？[p]
 他看起來好像很在意？？[p]
 
+#小光球
+………………。[p]
+
 #赤井秀一
 嗯。[p]
 
@@ -1335,7 +1338,6 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 因為太過喜歡，反而害怕說出口後連朋友都當不成。[p]
 以前他還會注視著我，現在卻沒有了，我怕之後越來越沒有機會。[p]
 降谷君覺得我該怎麼做才能讓他知道我的心意？[p]
-
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*muck_3"  ]
@@ -1414,7 +1416,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [_tb_end_text]
 
-[chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="530"  top="124"  reflect="false"  ]
+[chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="292"  top="-19"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=BURLYWOOD]就在兩人各懷心事時，赤井的手機突然響了，[p]
