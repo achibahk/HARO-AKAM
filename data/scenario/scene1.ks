@@ -908,6 +908,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="降谷撿起哈囉咬在嘴裡的照片。"  x="268"  y="190"  width=""  height=""  _clickable_img=""  target="*rei_photo"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="照片在掉一旁，赤井秀一趁降谷不注意時收進口袋"  x="216"  y="288"  width=""  height=""  _clickable_img=""  target="*akai_photo"  ]
 [s  ]
+[stopse  time="1000"  buf="1"  ]
 [stopse  time="1000"  buf="0"  ]
 *akai_photo
 
@@ -1719,6 +1720,7 @@ PO-BAD END[p]
 
 *rei_photo
 
+[stopse  time="1000"  buf="1"  ]
 [stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #降谷零
