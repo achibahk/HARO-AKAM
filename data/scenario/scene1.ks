@@ -597,7 +597,7 @@ END。[resetfont][p]
 
 #
 [font color=BURLYWOOD]在浴室沖澡的降谷零，近來情緒有些灰暗。[p]
-赤井抵達日本後，忙的足不點地。[p]
+赤井抵達日本後，忙得足不點地。[p]
 他自己的工作量也不遑多讓。[resetfont][p]
 
 #降谷零
@@ -606,7 +606,7 @@ END。[resetfont][p]
 #
 [font color=BURLYWOOD]但是見了面不知該說些什麼，也是事實。[p]
 擦乾頭髮的降谷，忽然發覺外頭實在太安靜了，[p]
-明明剛才哈囉還在又叫又跳，自己玩的很開心。[resetfont][p]
+明明剛才哈囉還在又叫又跳，自己玩得很開心。[resetfont][p]
 
 [_tb_end_text]
 
