@@ -1,10 +1,10 @@
 ;=========キャラクター事前定義情報 
 ;HARO
-[chara_new  name="HARO"  jname="HARO"  storage="chara/1/po_easy.png"  ]
+[chara_new  name="HARO"  jname="HARO"  storage="chara/1/haro1.png"  ]
 ;REI
-[chara_new  name="REI"  jname="REI"  storage="chara/2/rei_0.png"  ]
+[chara_new  name="REI"  jname="REI"  storage="chara/2/A-1-1.png"  ]
 ;AKAI
-[chara_new  name="AKAI"  jname="AKAI"  storage="chara/3/akai_2.png"  ]
+[chara_new  name="AKAI"  jname="AKAI"  storage="chara/3/B-1-1.png"  ]
 ;SCOTCH
 [chara_new  name="SCOTCH"  jname="SCOTCH"  storage="chara/4/scotch.png"  ]
 
