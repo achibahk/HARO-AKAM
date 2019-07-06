@@ -9,7 +9,7 @@
 [bg  time="1000"  method="crossfade"  storage="r18_OP.jpg"  ]
 [wait  time="300"  ]
 [l  ]
-[bg  storage="title.jpg"  ]
+[bg  storage="snowuta_018y_sample.jpg"  ]
 *title
 
 [tb_image_show  time="1000"  storage="default/title.png"  width="451"  height="339"  x="96"  y="130"  _clickable_img=""  ]
