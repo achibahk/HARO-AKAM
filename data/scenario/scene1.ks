@@ -25,29 +25,32 @@
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro1.png"  width="500"  height="500"  left="256"  top="27"  reflect="false"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_breathing.ogg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Magic_in_the_Garden.ogg"  ]
-[tb_start_text mode=1 ]
-#哈囉
-[font color=DARKMAGENTA]各位玩家，我是哈囉。[resetfont][p]
-[_tb_end_text]
+*start_game_again
 
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]我的主人最近心情不是很好，[p]
-你願意跟我一起幫助主人嗎？[resetfont][p]
+[font color=DARKMAGENTA]各位玩家，我是哈囉。[p]
+跟大家介紹遊戲的操作方式，要聽好了喔。[p]
+按下最右邊的MENU按鈕，就可以進行DATA SAVE或DATA LOAD。[p]
+把你的滑鼠游標移到畫面右邊，將滾輪向上滾動，就會出現BACKLOG。[p]
+按一下右鍵可以隱藏文字欄，再按一下右鍵，文字欄就會回來囉！[p]
+什麼，你說狗狗怎麼知道這麼多？[p]
+我會的事還多著呢！[p]
+那你們有學會操作方式了嗎？[resetfont][p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene1.ks"  size="20"  target="*start_game_real"  text="好"  x="445"  y="194"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="不好"  target="*start_game_fake"  x="436"  y="265"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  target="*start_game_real"  text="學會了"  x="436"  y="191"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="再看一次說明"  target="*start_again_2"  x="410"  y="266"  width=""  height=""  _clickable_img=""  ]
 [glink  color="pink"  storage="scene1.ks"  size="20"  text="跳去H&nbsp;SCENE"  target="*shiyu_H_scene"  x="389"  y="131"  width=""  height=""  _clickable_img=""  ]
 [s  ]
-*start_game_fake
+*start_again_2
 
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]好吧，那你就在電腦前看我大顯神通囉！[resetfont][p]
+[font color=DARKMAGENTA]真拿你沒辦法，這次要看清楚喔。[resetfont][p]
 [_tb_end_text]
 
-[jump  storage="scene1.ks"  target="*start_game_real"  ]
+[jump  storage="scene1.ks"  target="*start_game_again"  ]
 [s  ]
 *start_game_real
 
@@ -175,7 +178,13 @@
 #哈囉
 [font color=DARKMAGENTA]……沒關係，沒有赤井，還有我啊！[p]
 就像主人給我一個溫暖的家一樣，我也要努力讓主人微笑！[resetfont][p]
+[_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/CG_BE_reimi.jpg"  width="960"  height="640"  name="img_56"  ]
+[wait  time="600"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]從此哈囉與降谷過著幸福快樂的日子。[p]
 END。[resetfont][p]
@@ -184,6 +193,7 @@ END。[resetfont][p]
 [font color=TEAL]（你真的要哈囉每天只跟降谷吃芹菜嗎？）[resetfont][p]
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="我選錯了。"  x="403"  y="205"  width=""  height=""  _clickable_img=""  target="*again"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="我要重新選擇。"  x="377"  y="277"  width=""  height=""  _clickable_img=""  target="*again"  ]
 [s  ]
@@ -394,6 +404,11 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="HARO"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_tyrano_code]
+[bg storage="snowuta_017n_sample.jpg" time="100"]
+[filter layer="base" sepia=70]
+[_tb_end_tyrano_code]
+
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Nostalgic_Piano.ogg"  ]
 [tb_start_text mode=1 ]
 #
@@ -449,6 +464,10 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
+[tb_start_tyrano_code]
+[free_filter]
+[_tb_end_tyrano_code]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_bark2.ogg"  ]
 [chara_hide  name="AKAI"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="HARO"  time="1000"  wait="true"  left="226"  top="34"  width=""  height=""  reflect="false"  ]
@@ -469,7 +488,7 @@ END。[resetfont][p]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]叫的有點累的哈囉，注意到赤井放在客廳長几上的皮夾，[p]
-便小踏步過去聞聞，然後一屁股窩在皮夾上。[resetfont][p]
+小踏步過去聞聞後，然後一屁股窩在皮夾上。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro8.png"  ]
@@ -584,7 +603,7 @@ END。[resetfont][p]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]臭臭的赤井秀一……就先放在這裡好了。[resetfont][p]
+[font color=DARKMAGENTA]臭臭的赤井……就先放在這裡好了。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -592,12 +611,11 @@ END。[resetfont][p]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro6.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=CORAL]（深夜的街道上）[resetfont][p]
+[font color=CORAL]（深夜，街道上）[resetfont][p]
 
 #
 [font color=TEAL]決定放棄赤井的哈囉，咬好照片，跟著小光球離開赤井家。[p]
 哈囉一心只想回家，跑的比光球還快，沒注意到街角衝出的汽車。[resetfont][p]
-
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="car_breaking_skid.ogg"  ]
@@ -697,11 +715,11 @@ END。[resetfont][p]
 外頭也沒有埋伏的跡象，就只有哈囉憑空消失了。[p]
 這個超現實的狀況，就算是公安精英也愣了一下。[p]
 握著哈囉項圈的降谷，深吸了一口氣。[p]
-總之不能再待在這裡。[p]
-降谷零把重要資料收齊，往另一安全據點出發。[p]
+總之必需行動起來。[p]
+降谷迅速將幾份絕密資料在廚房燒燼，穿上外衣離開住所。[p]
 然後，找狗。[p]
 對，用最老套的方式，[p]
-把他帶哈囉去過的那些地方都找過一遍。[resetfont][p]
+把他帶哈囉去過的那些地方都找一遍。[resetfont][p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="1711daily07r_sample.jpg"  ]
@@ -711,7 +729,7 @@ END。[resetfont][p]
 [font color=CORAL]（深夜的街道上）[resetfont][p]
 
 #
-[font color=TEAL]緊急跟風見聯絡，確認自己的居所一切沒有異狀。[p]
+[font color=TEAL]緊急通知風見協助探查後，降谷確認自己的居所一切沒有異狀。[p]
 降谷走在下雨的街道上，思考這到底是怎麼回事。[resetfont][p]
 
 #降谷零
@@ -728,6 +746,11 @@ END。[resetfont][p]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="snowuta_017_sample.jpg"  ]
+[tb_start_tyrano_code]
+[bg storage="snowuta_017_sample.jpg" time="100"]
+[filter layer="base" blur=5]
+[_tb_end_tyrano_code]
+
 [chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="198"  top="-83"  reflect="false"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="morning_birds.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
@@ -747,6 +770,10 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_tyrano_code]
+[free_filter]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="puffIn"  storage="snowuta_017_sample.jpg"  cross="true"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -754,13 +781,12 @@ END。[resetfont][p]
 
 #
 [font color=TEAL]宿醉頭痛的赤井覺得這真不是個好預兆。[p]
-從沙發起身時，赤井秀一發現襯衫沾到一些白色的狗毛，[p]
+從沙發起身時，赤井發現襯衫沾到一些白色的狗毛，[p]
 這才想起昨晚撿了一隻狗回家。[p]
-沒在客廳看到狗的赤井秀一，吹著口哨想把狗叫來。[p]
+沒在客廳看到狗的赤井，吹著口哨想把狗叫來。[p]
 但狗消失了，不在住所的任何地方。[p]
 赤井頓時酒醒大半，飛快檢查他安放在出入口的記號。[p]
 ……看來大門從內側打開又關起來過。[resetfont][p]
-
 [_tb_end_text]
 
 [bg  time="1000"  method="puffIn"  storage="snowuta_017_sample.jpg"  cross="true"  ]
@@ -795,7 +821,7 @@ END。[resetfont][p]
 [playse  volume="100"  time="1000"  buf="0"  storage="soft_rain.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
 #
-[font color=CORAL]（清晨的街道上）[resetfont][p]
+[font color=CORAL]（清晨，街道上）[resetfont][p]
 
 #
 [font color=TEAL]外面下著細雨，赤井撐了傘出門，[p]
@@ -946,7 +972,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 等等，你該不會給哈囉看過我的照片吧？[resetfont][p]
 
 #降谷零
-少往自己臉上貼金了FBI。[p]
+少……少往自己臉上貼金了FBI。[p]
 
 #
 [font color=TEAL]此時，半夜在溜滑梯下躲雨，累到睡著的哈囉耳朵動了一下。[resetfont][p]
@@ -1011,7 +1037,12 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]就這樣，降谷帶著哈囉與赤井回到自己家。[resetfont][p]
+[font color=TEAL]突然出現的哈囉抓走降谷的注意力，他摸著愛犬濕漉漉的毛髮總算放下心中大石。[p]
+確認哈囉只是弄得有點髒，其他一切都好之後，這才想起被晾在一旁的人。[p]
+看著急需盥洗的哈囉和自己，以及幫忙找狗而滿身大汗的赤井，[p]
+降谷提議到自己家稍微歇會兒。而對方也爽快地答應了。[p]
+就這樣，降谷帶著哈囉與赤井回到自己家。[p]
+[resetfont][p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="1711daily10_sample.jpg"  cross="true"  ]
@@ -1035,13 +1066,35 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #
 [font color=TEAL]赤井收起雨傘，這才發現降谷沒有拿傘，在外折騰這一遭後全身都濕透了。[p]
 看來是真的著急著要找哈囉，完全不顧及自己。[p]
-等赤井回過神，降谷已經拿了一條乾淨的毛巾出來。[resetfont][p]
+等赤井回過神，降谷已經脫下溼透的外套，拿了一條乾淨的毛巾出來。[resetfont][p]
 
 #降谷零
 這條毛巾是新的，不介意的話就拿去用吧。[p]
+
+#
+[font color=TEAL]赤井的目光不自覺地從降谷伸出的手移往他的胸前。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]......！！[resetfont][p]
+
+[font color=TEAL]降谷的上衣因為吸飽雨水，而緊緊貼著精瘦結實的身體，[p]
+沿著脖頸的線條向下，左胸前的開襟底下露出半節佈滿汗水雨水的鎖骨，[p]
+再順著向下延伸的釦子，赤井嚥了嚥口水，看向胸膛前兩個小巧的突起。[p]
+不知是昨夜宿醉未醒，還是真是如此，[p]
+赤井覺得自己好像看見粉色乳頭的形狀......[resetfont][p]
+#降谷零
+怎麼了？[p]
+#赤井秀一
+[font color=FIREBRICK]啊不不不，沒事沒事。謝謝。[resetfont][p]
+[font color=TEAL]赤井猛地抽走降谷手上的毛巾，用力拍在自己臉上，狠狠地抹了兩把。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]（這種時候想什麼呢，被降谷君發現的話，別說是把心裡話講出來了，[p]
+現在就會立刻被一拳一腳外加一狗咬地轟出去。）[resetfont][p]
+
+#降谷零
 我和哈囉去沖一下澡，你就當在自己家裡，不用拘束。失陪一下。[p]
 #
-[font color=TEAL]降谷把赤井留在客廳，打算藉著先去洗澡，暫時逃避和赤井的接觸。[p]
+[font color=TEAL]降谷沒有發現赤井遊走在自己身上的視線，[p]
+把赤井留在客廳，打算藉著先去洗澡，暫時逃避和赤井的接觸。[p]
 降谷說完後走進浴室，接著突然又想起什麼、在裡頭大聲對赤井說：[resetfont][p]
 
 #降谷零
@@ -1126,8 +1179,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [bg  time="1000"  method="crossfade"  storage="1711daily10_sample.jpg"  cross="true"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]降谷香噴噴地帶著哈囉走出浴室，[p]
-先去泡了咖啡招待赤井，哈囉卻趁他不注意時亂跑，[p]
+[font color=TEAL]降谷香噴噴地帶著哈囉走出浴室，看見赤井已經先去找了件他的T恤換上，[p]
+便先去廚房泡了咖啡招待赤井，哈囉卻趁他不注意時亂跑，[p]
 跑到一個櫃子前面對著赤井汪汪叫像在叫他過去看。[resetfont][p]
 [_tb_end_text]
 
@@ -1219,7 +1272,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #赤井秀一
 [font color=FIREBRICK]算是吧，昨天我把哈囉帶回家，早上起來照片就跟著哈囉一起不見了。[p]
-我想可能是他把東西帶走的。[resetfont]剛才看到，果然在他那邊。[resetfont][p]
+我想可能是他把東西帶走的。[p]
+[resetfont]剛才看到，果然在他那邊。[resetfont][p]
 
 #
 [font color=TEAL]偷偷拿走赤井照片的行為被完整揭穿，哈囉聽了決定……[resetfont][p]
@@ -1238,8 +1292,9 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [font color=FIREBRICK]拿回來了。[resetfont][p]
 
 #降谷零
-那就好。[resetfont]哈囉，以後不可以亂拿走別人的東西喔！[p]
-不然大家都會很困擾的。[resetfont][p]
+那就好。[p]
+哈囉，以後不可以亂拿走別人的東西喔！[p]
+不然大家都會很困擾的。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -1644,7 +1699,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/小墨.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_422"  ]
+[tb_image_show  time="1000"  storage="default/小墨.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_433"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -1684,6 +1739,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 墨兒 - NORMAL END.[p]
 [_tb_end_text]
 
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [s  ]
 *waiting_rei
@@ -1694,7 +1750,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #
 [font color=TEAL]聽降谷這麼一說，赤井也冒出了換掉身上這件被汗水浸溼的襯衫的想法，於是走進降谷房間。[p]
-房間意外得簡潔，絲毫沒有多餘的東西。[resetfont]先行抓住赤井目光的是……[resetfont][p]
+房間意外得簡潔，絲毫沒有多餘的東西。[p]
+[resetfont]先行抓住赤井目光的是……[resetfont][p]
 
 
 [_tb_end_text]
@@ -1735,7 +1792,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波BE_彈吉他.jpg"  width="960"  height="640"  name="img_448"  ]
+[tb_image_show  time="1000"  storage="default/波BE_彈吉他.jpg"  width="960"  height="640"  name="img_459"  ]
 [wait  time="3000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -1936,7 +1993,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [chara_hide  name="SCOTCH"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波BE_哈囉睡覺.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_488"  ]
+[tb_image_show  time="1000"  storage="default/波BE_哈囉睡覺.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_499"  ]
 [wait  time="3000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -1948,6 +2005,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 PO-BAD END[p]
 [_tb_end_text]
 
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]
 [tb_image_hide  time="1000"  ]
 [s  ]
 *rei_photo
@@ -2064,14 +2122,15 @@ PO-BAD END[p]
 [font color=TEAL]降谷把照片放到茶几上，沒等對方答話便逕自往浴室走去。[p]
 赤井則在沙發上坐了下來，面無表情、不發一語盯著照片。[p]
 約莫過了四十分鐘左右，降谷沖好澡換上乾淨的衣服、[p]
-帶著看起來明顯舒適到要睡著的哈囉走進客廳。[resetfont]赤井則維持方才的模樣。[resetfont][p]
+帶著看起來明顯舒適到要睡著的哈囉走進客廳。[p]
+赤井則先去找了件降谷的T恤換上。[resetfont][p]
 [_tb_end_text]
 
 [chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="29"  top="-86"  width="550"  height="776"  ]
 [chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="550"  height="776"  left="311"  top="-100"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #降谷零
-真是的，不是叫你別拘束嗎？怎麼不弄點喝的呢？[p]
+怎麼不弄點喝的呢？[p]
 要黑咖啡還是……波本？[p]
 #
 [font color=TEAL]赤井先是愣了愣。聽聞對方這個問法，既好奇又疑惑地挑了挑眉，而後選擇………[resetfont][p]
@@ -2094,7 +2153,8 @@ PO-BAD END[p]
 [font color=TEAL]不一會兒，冒著熱氣的手沖黑咖啡就端上桌面，赤井慢條斯理地啜飲一口。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]你也跟以前一樣，手藝仍舊那麼好呢。[resetfont][p]
-[font color=TEAL]放下那只設計簡約的咖啡杯。[resetfont]這番意有所指的話語，說得比咖啡的味道還要深奧。[resetfont][p]
+[font color=TEAL]放下那只設計簡約的咖啡杯。[p]
+[resetfont]這番意有所指的話語，說得比咖啡的味道還要深奧。[resetfont][p]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*PO_GOOD1"  ]
@@ -2189,10 +2249,10 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波HE_擁抱.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_559"  ]
+[tb_image_show  time="1000"  storage="default/波HE_擁抱.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_570"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
-[chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="234"  top="4"  width="307"  height="616"  ]
+[chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="106"  top="-78"  width="511"  height="719"  ]
 [tb_start_text mode=1 ]
 #降谷零
 欸！你幹嘛？放開我！[p]
@@ -2201,7 +2261,7 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_565"  ]
+[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_576"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -2215,7 +2275,8 @@ PO-BAD END[p]
 你什麼意思？你說的「不放手」到底是……什麼意思？[p]
 #
 [font color=TEAL]赤井頓了頓，看著那雙清澈藍眼混著些許濕潤、狠狠地瞪向自己，一副咄咄逼人的模樣。[p]
-但他不因此而退縮。[resetfont]畢竟有些話，他從很久以前就想說了……[resetfont][p]
+但他不因此而退縮。[p]
+畢竟有些話，他從很久以前就想說了……[resetfont][p]
 
 #赤井秀一
 [font color=FIREBRICK]我怎麼捨得繼續看你獨自一人在悲傷中鑽牛角尖？[p]
@@ -2226,7 +2287,7 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_570"  ]
+[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_581"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -2250,7 +2311,7 @@ PO-BAD END[p]
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_576"  ]
+[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_587"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 [font color=TEAL]啥？這種像是少女漫畫或偶像劇才會出現的話，讓降谷不禁在心頭唾棄。[p]
@@ -2265,17 +2326,17 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_580"  ]
+[tb_image_show  time="1000"  storage="default/波HE_擁抱特寫_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_591"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
-[tb_image_show  time="1000"  storage="default/波HE_牽手_赤井牽.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_583"  ]
+[tb_image_show  time="1000"  storage="default/波HE_牽手_赤井牽.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_594"  ]
 [wait  time="600"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]兩人相視一笑。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/波HE_相視而笑.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_586"  ]
+[tb_image_show  time="1000"  storage="default/波HE_相視而笑.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_597"  ]
 [wait  time="600"  ]
 [tb_start_text mode=1 ]
 #
@@ -2289,6 +2350,7 @@ PO-BAD END[p]
 [font color=TEAL]PO - GOOD END1.[resetfont][p]
 [_tb_end_text]
 
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *po_donttouch
 
@@ -2311,6 +2373,7 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
+#
 [font color=TEAL]劈哩啪啦地說了一長串。[p]
 赤井知道對方並不愛聽，甚至可能心底是明白自己的用意的，卻因為倔強的個性而不願承認。[p]
 非得從他人口中、一字一句確切地說出才甘願面對。[resetfont][p]
@@ -2324,8 +2387,9 @@ PO-BAD END[p]
 [font color=FIREBRICK]所以，之後我們也繼續合作好嗎？我指的是我們兩人的未來。[resetfont][p]
 #降谷零
 ……………………。[p]
-[font color=TEAL]這個降谷零真的是很麻煩呢。[resetfont]赤井不禁這麼想道。[resetfont]果然還是得由自己主動出擊才行。[p]
-沉默環繞在兩人之間。[resetfont]降谷等紛亂的思緒全都整理好了才又緩緩開口。[resetfont][p]
+[font color=TEAL]這個降谷零真的是很麻煩呢。[resetfont]赤井不禁這麼想道。[p]
+[resetfont]果然還是得由自己主動出擊才行。沉默環繞在兩人之間。[resetfont][p]
+降谷等紛亂的思緒全都整理好了才又緩緩開口。[resetfont][p]
 #降谷零
 好吧……這次是我輸了。[p]
 今後也請多多指教了……赤井秀一。[p]
@@ -2334,14 +2398,14 @@ PO-BAD END[p]
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/波HE_牽手_降谷牽.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_597"  ]
+[tb_image_show  time="1000"  storage="default/波HE_牽手_降谷牽.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_608"  ]
 [wait  time="600"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷輕輕牽上赤井的手，對自己和對方的真實情感投降。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/波HE_相視而笑.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_600"  ]
+[tb_image_show  time="1000"  storage="default/波HE_相視而笑.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_611"  ]
 [wait  time="600"  ]
 [tb_start_text mode=1 ]
 #
@@ -2354,6 +2418,7 @@ PO-BAD END[p]
 [font color=TEAL]PO - GOOD END2.[resetfont][p]
 [_tb_end_text]
 
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *shiyu_happy_h1
 
@@ -2364,8 +2429,10 @@ PO-BAD END[p]
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro7.png"  width="327"  height="327"  left="603"  top="154"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]……太複雜了，我分不出來啦！我只是隻狗狗嘛。[p]
-啊，主人把照片塞進口袋了。[resetfont][p]
+[font color=DARKMAGENTA]啊，主人把照片塞進口袋了。[resetfont][p]
+#哈囉
+[font color=DARKMAGENTA]……太複雜了，我分不出來啦！我只是隻狗狗嘛。[resetfont][p]
+
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro6.png"  ]
@@ -2559,14 +2626,19 @@ PO-BAD END[p]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
 #赤井秀一
-[font color=FIREBRICK]沒想到能聽到你說這些。[p]
+[font color=FIREBRICK]沒想到能聽到你說這些。[resetfont][p]
 #降谷零
 我也沒想到能說出來。[p]
-為什麼呢……總覺得有種安心感……[resetfont][p]
+
 [_tb_end_text]
 
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="665"  top="20"  reflect="false"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="scotch.ogg"  fadein="false"  ]
+[tb_start_text mode=1 ]
+#降谷零
+為什麼呢……總覺得有種安心感……[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]啊！發光的球球！原來你在那裏啊！[resetfont][p]
@@ -2842,7 +2914,6 @@ PO-BAD END[p]
 #降谷零
 真是乖狗狗。[p]
 好，擦乾了，你先出去吧。[p]
-
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="chihuahua-puppy-whine.ogg"  ]
@@ -2962,7 +3033,18 @@ PO-BAD END[p]
 #
 [font color=TEAL]我一骨碌爬起來，把主人說是「手機」的盒子叼到赤井面前，用肉球在上面滑動。[resetfont][p]
 [font color=TEAL]我記得每次主人打開的時候都會畫個↑，然後就可以……欸？打不開呢……[resetfont][p]
+
+[_tb_end_text]
+
+[chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="285"  height="190"  left="665"  top="20"  reflect="false"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="scotch_guitar.ogg"  fadein="false"  ]
+[tb_start_text mode=1 ]
 [font color=TEAL]嗯？[resetfont][p]
+
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
 [font color=TEAL]啊！亮了，你好厲害啊！[p]
 我看看喔，記得是這裡……[resetfont][p]
 [font color=TEAL]有了！赤井，你看，是你的照片喔！[resetfont][p]
@@ -2990,6 +3072,7 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [chara_hide  name="AKAI"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="SCOTCH"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #降谷零
 ……？[p]
@@ -3029,7 +3112,8 @@ PO-BAD END[p]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]主人拿著我叼給他的照片，好像在想事情。[resetfont][p]
-[font color=TEAL]啊！發光的球球又出現了。[resetfont]你要去哪裡？[resetfont][p]
+[font color=TEAL]啊！發光的球球又出現了。[p]
+[resetfont]你要去哪裡？[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -3193,20 +3277,20 @@ PO-BAD END[p]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷坐在沙發前，把玩著某樣東西。[p]
-桌面的咖啡壺升起裊裊熱氣，旁邊放著兩個空杯。[resetfont]赤井觀察降谷的神色，在留給自己的杯子前方坐下。[resetfont][p]
+桌面的咖啡壺升起裊裊熱氣，旁邊放著兩個空杯。[p]
+赤井觀察降谷的神色，在留給自己的杯子前方坐下。[resetfont][p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #降谷零
 要喝咖啡還是酒？[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene1.ks"  size="20"  text="咖啡"  x="430"  y="174"  width=""  height=""  _clickable_img=""  target="*shiyu_coffee"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="波本"  x="429"  y="251"  width=""  height=""  _clickable_img=""  target="*shiyu_coffee"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="波本"  x="429"  y="251"  width=""  height=""  _clickable_img=""  target="*shiyu_bourbon"  ]
 [s  ]
 *shiyu_coffee
-
-[tb_start_text mode=1 ]
-#
-[font color=RED]（因為還未編輯好，選波本和咖啡都是喝咖啡：３）[resetfont][p]
-[_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
@@ -3242,18 +3326,51 @@ PO-BAD END[p]
 但組織毀滅之後，這還是這麼重要的東西嗎？[p]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
+#降谷零
 再來一杯嗎？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene1.ks"  size="20"  text="咖啡"  target="*shiyu_coffee2"  x="422"  y="175"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="波本"  target="*shiyu_coffee2"  x="420"  y="250"  width=""  height=""  _clickable_img=""  ]
+[jump  storage="scene1.ks"  target="*shiyu_coffeeorbourbon2"  ]
 [s  ]
-*shiyu_coffee2
+*shiyu_bourbon
 
 [tb_start_text mode=1 ]
+#降谷零
+喏。[p]
 #
-[font color=RED]（因為還未編輯好，選波本和咖啡都是喝咖啡：３）[resetfont][p]
+[font color=TEAL]降谷斟了一杯波本在杯子裡，遞給赤井。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]謝謝。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]降谷君，你在看什麼？[resetfont][p]
+#降谷零
+……[p]
+#
+[font color=TEAL]降谷展開手心，出示那張微皺、略有齒痕的照片。[resetfont][p]
+#降谷零
+為什麼還留著這張照片？[p]
+#
+[font color=TEAL]沒想到降谷會問得這麼直，赤井一時語塞。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]當然是為了調查。[resetfont][p]
+#降谷零
+……嗯，這的確是重要的調查資料。[p]
+#降谷零
+但組織毀滅之後，這還是這麼重要的東西嗎？[p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#降谷零
+再來一杯嗎？[p]
 [_tb_end_text]
+
+[jump  storage="scene1.ks"  target="*shiyu_coffeeorbourbon2"  ]
+[s  ]
+*shiyu_coffeeorbourbon2
+
+[glink  color="black"  storage="scene1.ks"  size="20"  text="咖啡"  target="*shiyu_coffee2"  x="422"  y="175"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="波本"  target="*shiyu_bourbon2"  x="420"  y="250"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*shiyu_coffee2
 
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -3279,16 +3396,61 @@ PO-BAD END[p]
 [font color=TEAL]注意到赤井的杯子又空了，降谷揚起咖啡壺與酒瓶晃了晃，示意赤井選一個。[resetfont][p]
 [_tb_end_text]
 
+[jump  storage="scene1.ks"  target="*shiyu_bourboncoffee3"  ]
+[s  ]
+*shiyu_bourbon2
+
+[tb_start_text mode=1 ]
+#赤井秀一
+[font color=FIREBRICK]酒。[resetfont][p]
+#降谷零
+你還真能喝。[p]
+我再拿幾瓶過來，想喝些什麼？[p]
+#赤井秀一
+[font color=FIREBRICK]波本。[resetfont][p]
+#降谷零
+還有呢？[p]
+#赤井秀一
+[font color=FIREBRICK]我現在……只沉迷於波本。[resetfont][p]
+#降谷零
+……[p]
+#
+[font color=TEAL]降谷從酒櫃中取來許多威士忌，甚至提來冰桶，鑿得渾圓的冰球墜入玻璃杯敲出響亮的音色，遞到赤井面前，倒入半杯波本。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我很抱歉。[resetfont][p]
+#降谷零
+為什麼道歉？[p]
+#赤井秀一
+[font color=FIREBRICK]在道歉之前，我有個問題……你的手機裡為什麼有我的照片？[resetfont][p]
+#降谷零
+……大概和你留著這張照片的理由一樣吧。[p]
+#降谷零
+你說的「很抱歉」是什麼？[p]
+#
+[font color=TEAL]注意到赤井的杯子又空了，降谷揚起咖啡壺與酒瓶晃了晃，示意赤井選一個。[resetfont][p]
+[_tb_end_text]
+
+[jump  storage="scene1.ks"  target="*shiyu_bourboncoffee3"  ]
+[s  ]
+*shiyu_bourboncoffee3
+
 [glink  color="black"  storage="scene1.ks"  size="20"  text="喝完剩下的咖啡"  target="*shiyu_coffee3"  x="358"  y="185"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="喝完剩下的波本"  target="*shiyu_coffee3"  x="357"  y="263"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="喝完剩下的波本"  target="*shiyu_bourbon3"  x="357"  y="263"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *shiyu_bourbon3
 
 [tb_start_text mode=1 ]
-#
-[font color=RED]（因為還未編輯好，選波本和咖啡都是喝咖啡：３）[resetfont][p]
+#降谷零
+幹麼喝得那麼急？[p]
+#赤井秀一
+[font color=FIREBRICK]我需要……稍微壯膽。[resetfont][p]
+#降谷零
+和我喝酒有那麼可怕嗎……[p]
+#降谷零
+算了，就讓你喝個夠吧。[p]
 [_tb_end_text]
 
+[jump  storage="scene1.ks"  target="*shiyu_ne"  ]
 [s  ]
 *shiyu_coffee3
 
@@ -3328,10 +3490,12 @@ PO-BAD END[p]
 #
 [font color=TEAL]一片黑暗中，赤井吞了口唾沫。[p]
 他感覺到降谷的另一隻手覆住了他的掌心，兩人的肌膚之間，隔著一片薄薄的方形物體，四個角稍稍刺痛了他。[resetfont][p]
-[font color=TEAL]降谷君拿著另一張照片。[resetfont]問題是，究竟是哪一張？[resetfont][p]
+[font color=TEAL]降谷君拿著另一張照片。[p]
+問題是，究竟是哪一張？[resetfont][p]
 [font color=TEAL]他們從未停止互相刺探。[p]
 從以前，到現在。[resetfont][p]
-[font color=TEAL]到現在他也無法肯定，如果說出了此刻心中的想法，這雙手移開之後，他看見的會是怎樣的表情。[resetfont][p]
+[font color=TEAL]到現在他也無法肯定，如果說出了此刻心中的想法，[p]
+這雙手移開之後，他看見的會是怎樣的表情。[resetfont][p]
 [font color=TEAL]他可以說謊，可以搪塞。[p]
 但是這樣就可以了嗎？[resetfont][p]
 [font color=TEAL]一直這樣下去可以嗎？[resetfont][p]
@@ -3374,7 +3538,7 @@ PO-BAD END[p]
 #降谷零
 為什麼會變成這樣……[p]
 #
-[font color=TEAL]赤井的吻技令人暈陶陶的，不知不覺地沉溺、不知不覺被緊擁、不知不覺被抱起……從客廳一路走進臥室，順利得過頭。[resetfont][p]
+[font color=TEAL]赤井的吻技令人暈陶陶的，不知不覺地沉溺……從客廳一路走進臥室，順利得過頭。[resetfont][p]
 
 [_tb_end_text]
 
@@ -3383,14 +3547,14 @@ PO-BAD END[p]
 #
 [font color=TEAL]被赤井溫柔地愛撫，只是這樣就令身體連同思緒都顫動，怎麼可能還有否定的餘力。[resetfont][p]
 [font color=TEAL]能逼出這個男人的告白令他無比開心，一掃過去數個月甚至數年的陰霾。[resetfont][p]
-[font color=TEAL]享受著勝利感的同時感動得想哭，一夜未眠的身體此刻卻興奮得超乎想像－－甚至有些可怕。[resetfont][p]
+[font color=TEAL]享受著勝利感的同時感動得想哭，一夜未眠的身體此刻卻興奮得超乎想像……甚至有些可怕。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #降谷零
 呼、啊……唔[p]
 #赤井秀一
-[font color=FIREBRICK]你的乳頭……好敏感。[resetfont][p]
+[font color=FIREBRICK]你的胸部……好敏感。[resetfont][p]
 #降谷零
 閉嘴……[p]
 #赤井秀一
@@ -3458,7 +3622,7 @@ PO-BAD END[p]
 #赤井秀一
 [font color=FIREBRICK]是看這 ‧ 裡。[resetfont][p]
 #
-[font color=TEAL]赤井拉著他的手向下探，直達某個興奮怒張的部位－－[resetfont][p]
+[font color=TEAL]赤井拉著他的手向下探－－[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="hitting-bed-with-pillow1.ogg"  ]
@@ -3567,6 +3731,10 @@ PO-BAD END[p]
 [tb_start_text mode=1 ]
 #降谷零
 －－啊！[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
 #降谷零
 啊、嗚啊、唔－－！[p]
 #赤井秀一
@@ -3589,7 +3757,6 @@ PO-BAD END[p]
 [font color=FIREBRICK]沒事的。[p]
 快到底了。[p]
 零君……你聽過結腸嗎？[resetfont][p]
-
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -3698,6 +3865,7 @@ PO-BAD END[p]
 啊……啊！[p]
 [_tb_end_text]
 
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
 [stopse  time="1000"  buf="3"  fadeout="true"  ]
 [tb_start_text mode=1 ]
@@ -3821,22 +3989,558 @@ PO-BAD END[p]
 雨妃 - H HAPPY END.[p]
 [_tb_end_text]
 
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]
 [s  ]
-*shiyu_bourbon2
+*shiyu_ne
 
 [tb_start_text mode=1 ]
+#
+[font color=TEAL]降谷再次為赤井斟酒，赤井卻不喝。[p]
+他從眾多酒瓶中挑出唯一一瓶黑麥酒，當著降谷有些驚愕的面，緩緩注入盈著波本的酒杯。[resetfont][p]
+[font color=TEAL]無人言語，冰塊發出嗶啵的碎裂聲，更顯得一室寧靜。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]喝嗎？[resetfont][p]
+#降谷零
+……你想喝調酒？[p]
+#赤井秀一
+[font color=FIREBRICK]不。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我只想要Forgiven。[resetfont][p]
+#降谷零
+……[p]
+#降谷零
+波本混黑麥？我調給你總行了吧，別糟蹋我的酒。[p]
+#
+[font color=TEAL]降谷還真的挽起袖子調起酒來，先是選了裸麥威士忌作為基酒，認真地挑選適合搭配的廠牌與比例。[resetfont][p]
+[font color=TEAL]赤井悶了，唯一可安慰他的就是手上那杯悶酒。[p]
+但喝了之後居然更悶了，他沒抓好比例，波本的甜與黑麥的辛在味蕾上各行其是，一點都不協調。[resetfont][p]
+[font color=TEAL]本來Forgiven就不是調酒，應該要在釀造前混合，如今被他這樣一弄，倒真糟蹋了兩瓶好酒。[resetfont][p]
+[font color=TEAL]是他太急了，還是降谷在暗示什麼呢？[p]
+赤井有些氣餒，抓了瓶酒就往肚子裡灌。[resetfont][p]
+#降谷零
+……好了。[p]
+#
+[font color=TEAL]降谷將認真調了許久的酒杯奉上，吸引已半醉的赤井注意。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]這是……[resetfont][p]
+#
+[font color=TEAL]一入口就知道了，認真調製的這杯酒果然不同：[p]
+風味獨特，不是酒吧菜單上能見到的制式調酒，既有Rye的勁道，又能嘗到Bourbon柔和的甜香。[resetfont][p]
+#降谷零
+如何？[p]
+#赤井秀一
+[font color=FIREBRICK]非常好喝……[resetfont][p]
+#降谷零
+嗯哼。[p]
+#降谷零
+真沒想到……[p]
+竟然能讓你喝到我調的酒。[p]
+#降谷零
+……本來以為連見面都不可能了。[p]
+該感謝東京奧運呢……[p]
+#赤井秀一
+[font color=FIREBRICK]……抱歉。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]其實我不是為了東京奧運來日本的。[resetfont][p]
+#降谷零
+欸？[p]
+#降谷零
+……[p]
+#降谷零
+你這連死都能詐欺的慣犯……[p]
+#降谷零
+算了。[p]
+#赤井秀一
+[font color=FIREBRICK]你不問我回來的理由嗎？[resetfont][p]
+#降谷零
+你會認真回答嗎？[p]
+#赤井秀一
+[font color=FIREBRICK]啊啊。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]喝了這麼多，壯膽已經夠了。[resetfont][p]
+#降谷零
+什麼……？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]降谷的聲音很快轉為驚愕。[p]
+鍍著酒香的唇覆上來，僅僅只是嘴唇上殘留的、這般不值一提的酒氣，竟能將他醺得幾乎醉倒。[resetfont][p]
+[font color=TEAL]赤井泛著熱氣的手掌按住他的頸，意外的好燙。[p]
+槍繭在肌膚上摩娑，激起陣陣顫慄，大膽地向後移動－－撐住背、撐住腰，稍一使力，便將他壓進沙發。[resetfont][p]
+[font color=TEAL]降谷的思緒仍凝固成一團，錯失了反抗的時機。赤井還真真借酒壯了膽，一手與降谷十指交握，另一手開始在腰間游移，不只鑽進上衣覆蓋的地方，甚至往腰際線以下進攻……[resetfont][p]
+#降谷零
+咦、[p]
+#降谷零
+等……[p]
+#降谷零
+等一下，酒灑到我衣服上了……！[p]
+你想喝的話我再去拿……[p]
+#赤井秀一
+[font color=FIREBRICK]波本酒我已經喝得很夠了。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我現在想嘗的是你……[resetfont][p]
+#降谷零
+你……在說什麼傻話……[p]
+#赤井秀一
+[font color=FIREBRICK]降谷君……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]為了見你……我才從美國……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我對你……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#降谷零
+？[p]
+#
+[font color=TEAL]赤井的臉離得那樣近，卻一直沒有下一步動作。[p]
+降谷一開始雖然手足無措，但幾秒過後也察覺到不對……[p]
+赤井的眼神似乎沒有焦距。[resetfont][p]
+#降谷零
+赤……井？[p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……[p]
+呼……[resetfont][p]
+#降谷零
+……睡[p]
+睡著了……[p]
+#降谷零
+………………………………[p]
 
 [_tb_end_text]
 
-[s  ]
-*shiyu_bourbon
-
 [tb_start_text mode=1 ]
+#降谷零
+這是在跟我開玩笑嗎？！[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
+[tb_start_text mode=1 ]
+#降谷零
+呼……[p]
+#
+[font color=TEAL]降谷費了一番功夫才把赤井抬進房間。[resetfont][p]
+[font color=TEAL]他已經捏過赤井的人中、拉過耳朵、用盡力氣搖晃全身－－所有想得到的辦法，都沒辦法把人喚醒。[resetfont][p]
+#降谷零
+都是成年人了，為什麼會把自己喝得那麼醉啊?![p]
+#
+[font color=TEAL]仔細回想，自己認真調酒的時候，赤井好像一直在喝。[resetfont][p]
+[font color=TEAL]因為想讓赤井喝到最好的調酒，他根本沒注意到赤井喝了多少。[resetfont][p]
+#降谷零
+是我太過火了嗎……[p]
+#降谷零
+等等，這應該不是我的錯吧！[p]
+#降谷零
+……[p]
+#降谷零
+噯。[p]
+#降谷零
+你是真的睡著了嗎？[p]
+#
+[font color=TEAL]將赤井的臉頰往兩旁拉開－－[p]
+連自己都知道是無用的掙扎。[resetfont][p]
+#降谷零
+……開玩笑的吧。[p]
+#降谷零
+給我起來……[p]
+#降谷零
+你對我到底是怎麼想的……說清楚啊……[p]
+#降谷零
+……可惡[p]
+#降谷零
+在我身上摸來摸去……[p]
+#降谷零
+我都變這樣了，你睡得倒是很香嘛……[p]
+#降谷零
+……[p]
+#降谷零
+……[p]
+#降谷零
+………………要埋了他嗎……[p]
+#降谷零
+不……太便宜他了。[p]
+#降谷零
+……要不[p]
+#降谷零
+誰點的火就由誰負責……[p]
+這不過分吧。[p]
+#降谷零
+別抱怨喔，赤井。[p]
+#降谷零
+要是你中途醒來就更好玩了……[p]
 
 [_tb_end_text]
 
-[s  ]
-[chara_show  name="undefined"  time="1000"  wait="true"  ]
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[chara_move  name="HARO"  anim="false"  time="300"  effect="linear"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  ]
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_940"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]事情發展至此，真不知該不該笑。[resetfont][p]
+#降谷零
+唔、嗯……[p]
+#降谷零
+……赤井。[p]
+#
+[font color=TEAL]降谷趴在赤井身側，右手壓在下腹，盯著赤井的眼皮。[resetfont][p]
+[font color=TEAL]赤井的睫毛濃密修長，於是他像數羊一樣，慢慢地開始計數，一、二、三……[resetfont][p]
+[font color=TEAL]但是……一點也不會困倦。[resetfont][p]
+[font color=TEAL]埋在下腹的掌心從一開始的乾澀到開始濕潤，他的呼吸也逐漸喘起來。[resetfont][p]
+#降谷零
+……噯。[p]
+#降谷零
+你是真的睡了嗎……[p]
+#
+[font color=TEAL]一開始只是試探，隨著時間過去、赤井仍毫無反應，他的動作也愈來愈大膽。[resetfont][p]
+#降谷零
+唔……[p]
+#
+[font color=TEAL]原本把手藏在褲子裡搓弄，但隨著挑起的情慾，他愈來愈想要激烈一點的動作，褲子成了不小的阻礙。[resetfont][p]
+[font color=TEAL]故意往赤井的臉吹口氣，僅有瀏海動了一下，眼皮底下依舊沒有動靜，最後的一點試探沒有得到回應，於是他褪下了褲頭。[resetfont][p]
+#降谷零
+呼……[p]
+#
+[font color=TEAL]……平常絕對不會做這種事情的。不，連想都沒想過……[p]
+竟然會在赤井面前，露出這種這種痴態……[p]
+但是……[resetfont][p]
+#降谷零
+……意外的……[p]
+#降谷零
+讓人很興奮……呢。[p]
+#降谷零
+……[p]
+#降谷零
+你是真的聽不到嗎……混蛋赤井……[p]
+#降谷零
+………………[p]
+……喜歡……你……[p]
+#
+[font color=TEAL]下身已經充分勃起，前端稍微沁出的愛液滋潤掌心，但有那麼一點不足。[resetfont][p]
+[font color=TEAL]某個念頭閃過腦海，身體為之一僵，升起的期待很快將猶豫壓了下去。[resetfont][p]
+[font color=TEAL]空著的那隻手探向赤井的嘴，撬開齒列，碰觸到舌頭。[resetfont][p]
+[font color=TEAL]赤井的口腔比想像的還要柔軟、還要濕熱，降谷忽然感到乾渴。[p]
+他不自覺地嚥了口唾液，食指在赤井口中探索，撫過上顎、撫過舌尖……[resetfont][p]
+[font color=TEAL]抽離的時候牽出一條銀絲，而赤井仍平穩地呼吸。[p]
+鼻腔縈繞赤井的氣息，惹得降谷又是一陣心跳。[resetfont][p]
+#降谷零
+（把這個……）[p]
+#降谷零
+（……這樣做的話……）[p]
+#降谷零
+唔……[p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_945"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]換了一隻手搓弄硬得發痛的部位，食指插進包皮與龜頭之間的縫隙，濕滑的手感令他動情難耐，心跳劇烈如同擂鼓。[resetfont][p]
+#降谷零
+（要是你醒過來……）[p]
+#降谷零
+（會是什麼表情呢……）[p]
+#降谷零
+……哈哈……[p]
+#
+[font color=TEAL]這麼刺激的感覺……從來沒有過。[resetfont][p]
+#降谷零
+（想要……再更……）[p]
+#降谷零
+（碰觸他……）[p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_950"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]握住赤井秀一剛才在自己身上點火的手，降谷聽著自己失序的心跳，慢慢地……與自己貼合。[resetfont][p]
+#降谷零
+……唔[p]
+#降谷零
+（熱熱的……好舒服）[p]
+#
+[font color=TEAL]赤井這傢伙，老是把手插在口袋裡，[p]
+彷彿再大的事情都能單手解決。[resetfont][p]
+[font color=TEAL]那麼不可一世的赤井秀一……[p]
+現在正無知無覺地躺在他的床上，慣於射擊的手更被他借來自瀆。[resetfont][p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_955"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#降谷零
+哈哈……[p]
+#降谷零
+要是你現在醒來……會是什麼表情呢……[p]
+#降谷零
+……都是……你的錯……[p]
+#降谷零
+呼、嗯……[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_960"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#降谷零
+（已經、快要……）[p]
+#降谷零
+……唔……！[p]
+#降谷零
+……[p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_965"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#降谷零
+…………[p]
+#降谷零
+……可惡。[p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_970"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#降谷零
+跟你扯上關係，真是一點好事也沒有……[p]
+#降谷零
+……[p]
+#降谷零
+不過這感覺……還挺不賴。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#降谷零
+我們走著瞧。[p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[stopbgm  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro1.png"  width="500"  height="500"  left="256"  top="27"  reflect="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Pond.ogg"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]嗷……今天的摸摸也好舒服哦……[resetfont][p]
+#
+[font color=TEAL]最喜歡主人了～[resetfont][p]
+　[p]
+#
+[font color=TEAL]啊，有人來了。[p]
+我知道，一定又是赤井。[resetfont][p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="1711daily10_sample.jpg"  ]
+[chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="623"  top="142"  width="310"  height="310"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="249"  top="-99"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="-30"  top="-72"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#降谷零
+哈囉，「等等」。[p]
+#
+[font color=TEAL]我知道了，主人！[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]降谷君。[resetfont][p]
+#降谷零
+嗨。[p]
+今天要回去了？[p]
+#赤井秀一
+[font color=FIREBRICK]啊啊。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]降谷君，我有話對你說……[resetfont][p]
+#降谷零
+吃過了嗎？[p]
+晚餐多做了，進來吧。[p]
+#赤井秀一
+[font color=FIREBRICK]哦……[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#降谷零
+好吃嗎？[p]
+#赤井秀一
+[font color=FIREBRICK]非常美味。[resetfont][p]
+#
+[font color=TEAL]是赤井呢！我在赤井腳邊打轉，希望他會「不小心」掉一塊香香的肉給我。[p]
+最近赤井常常來家裡呢，每次主人都笑得好－－開心，但不知道為什麼，主人的笑容讓我有點怕怕的。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]降谷君，我有話對你說……[resetfont][p]
+#降谷零
+啊－－對了對了，看電視吧。[p]
+今天是開幕式喔……東‧京‧奧‧運。[p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#
+[font color=TEAL]啊！就像這樣，赤井有時候會像做錯事一樣垂頭喪氣的。[p]
+如果赤井是跟我一樣的狗狗，現在一定垂著尾巴和耳朵吧。[p]
+為什麼呢～？[resetfont][p]
+#
+[font color=TEAL]啊！有東西掉下來了，是肉肉!!![resetfont][p]
+#
+[font color=TEAL]我開心地叼著肉骨頭，跑回小窩獨享。[p]
+好香喔－－主人做的飯最棒了！[resetfont][p]
+#降谷零
+真漂亮。你看，赤井，是流星雨哦。[p]
+#降谷零
+啊啊。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]……氣氛似乎還不錯，也許現在正是機會。[p]
+那天他因為宿醉又加上在降谷家喝太多，醉倒又醒來以後，立刻察覺自己錯過了什麼。[resetfont][p]
+#
+[font color=TEAL]已經成功受邀進到降谷家，他原以為還有時間彌補這段空白。[p]
+但出乎意料的是……比起以前那個凶狠追殺他的公安，眼前這個笑咪咪的降谷君似乎更難對付。[resetfont][p]
+#
+[font color=TEAL]每次談及更深的話題，降谷就不輕不重地避開，他數不清碰了多少軟釘子－－[p]
+一次次準備告白，又一次次碰了滿鼻子的灰回家。[resetfont][p]
+#
+[font color=TEAL]已經不能再拖了。[resetfont][p]
+#
+[font color=TEAL]今天是留在外勤任務令的最後一天。[resetfont][p]
+#
+[font color=TEAL]無論如何，今天一定要……[resetfont][p]
+#
+[font color=TEAL]現在先稱讚降谷君的日本，想辦法拿一分吧。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]能做出這麼多的人造流星雨……不愧是日本。[resetfont][p]
+#降谷零
+當然了，這裡是我的日本呀。[p]
+#
+[font color=TEAL]很好，先馳得點！[resetfont][p]
+#降谷零
+那你什麼時候要離開？FBI。[p]
+#
+[font color=TEAL]完了，自掘墳墓！[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……晚上十點的飛機。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]聽我說，降谷君，我很抱歉－－[resetfont][p]
+#降谷零
+抱歉什麼？[p]
+#赤井秀一
+[font color=FIREBRICK]……我那天喝醉了，還對你……[resetfont][p]
+#降谷零
+哦，那個啊。[p]
+#降谷零
+你說的是在我家喝醉？還是強吻我？還是強吻我之後睡死了，哪一個？[p]
+#赤井秀一
+[font color=FIREBRICK]……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我那時失態了。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]但我不是想酒後亂性。[resetfont][p]
+#降谷零
+是啊，就算你原本想做些什麼，也什麼都沒做成就睡著了嘛。[p]
+#赤井秀一
+[font color=FIREBRICK]……不會做的。[p]
+降谷君……我想珍惜你。[resetfont][p]
+#降谷零
+……[p]
+#赤井秀一
+[font color=FIREBRICK]我不是為了東京奧運從美國回來的。是為了你，降谷君……我一直想再見你一面。[resetfont][p]
+#降谷零
+……見到了，然後呢？[p]
+#赤井秀一
+[font color=FIREBRICK]……我的任務期限只到今天，再過幾個小時我就要回美國了。[p]
+但是我想請你等我，我一定會再來這裡，見你、還有哈囉……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]……下次見面，我有話對你說。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]請你等我。[resetfont][p]
+#降谷零
+……[p]
+#降谷零
+……[p]
+#降谷零
+是嗎。[p]
+#降谷零
+那我送你一個臨別禮物吧。[p]
+#赤井秀一
+[font color=FIREBRICK]什麼？[resetfont][p]
+#
+[font color=TEAL]降谷走進房間，過了好一會兒才回來。回到赤井身邊，他彎下腰，將掌心握著的某樣東西塞進赤井的口袋－－[p]
+指縫遮得緊密嚴實，赤井只知道是片狀，放進口袋之後沒有明顯的異物感。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]這是？[resetfont][p]
+#降谷零
+給你。[p]
+下次見面的時候用得到。[p]
+#降谷零
+上了飛機才能拿出來哦。[p]
+#赤井秀一
+[font color=FIREBRICK]哈……[resetfont][p]
+#降谷零
+時間也差不多了，我送你出去。[p]
+到美國再跟我聯絡吧。[p]
+#赤井秀一
+[font color=FIREBRICK]……我沒有你的聯絡方式。[resetfont][p]
+#降谷零
+哦呀。[p]
+那我們交換吧，Mail。[p]
+#赤井秀一
+[font color=FIREBRICK]好。[resetfont][p]
+#降谷零
+再見，赤井。[p]
+這幾天我很開心。[p]
+#赤井秀一
+[font color=FIREBRICK]我也是。[p]
+我會盡快回來，再聯絡。[resetfont][p]
+#
+[font color=TEAL]……雖然說盡快，但也不知道詹姆斯什麼時候才會准假。[resetfont][p]
+#
+[font color=TEAL]但已經得到Mail了，接下來的攻略應該會簡單些吧……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]再見，降谷君。[resetfont][p]
+#降谷零
+快去吧。[p]
+#降谷零
+……[p]
+#降谷零
+……[p]
+#降谷零
+走了。[p]
+#降谷零
+日本到美國……大概12小時吧？[p]
+#降谷零
+真期待呢。[p]
+#降谷零
+等他發現那是保險套的表情……[p]
+#降谷零
+好啦，再去跟哈囉玩吧。[p]
+彈吉他給牠聽，再出門散步，晚上再幫牠洗個澡。[p]
+#降谷零
+哈囉－－[p]
+
+雨妃 - NORMAL END.[p]
+[_tb_end_text]
+
+[glink  color="green"  storage="scene1.ks"  size="20"  target="*photo_selection"  text="（方便檢查，重新回到選擇相片處）"  x="313"  y="246"  width=""  height=""  _clickable_img=""  ]

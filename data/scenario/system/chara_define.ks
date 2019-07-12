@@ -10,5 +10,5 @@
 
 ;=========変数宣言部分 
 [iscript] 
-f['rei']=0; 
+f['coffeeorbourbon']=0; 
 [endscript] 
