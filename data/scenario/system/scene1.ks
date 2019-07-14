@@ -42,7 +42,6 @@
 [preload  storage="./data/fgimage/chara/1/haro14.png"  ]
 [preload  storage="./data/fgimage/default/scotch.png"  ]
 [preload  storage="./data/bgimage/snowuta_018y_sample.jpg"  ]
-[preload  storage="./data/bgimage/title.jpg"  ]
 [preload  storage="./data/fgimage/default/語扉BE_自摸_1.jpg"  ]
 [preload  storage="./data/fgimage/default/語扉BE_自摸_2.jpg"  ]
 [preload  storage="./data/fgimage/default/語扉BE_抓赤井撸_1.jpg"  ]

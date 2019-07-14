@@ -10,5 +10,8 @@
 
 ;=========変数宣言部分 
 [iscript] 
-f['coffeeorbourbon']=0; 
+f['s1']=0; 
+f['s2']=0; 
+f['s3']=0; 
+f['s_check']=0; 
 [endscript] 

@@ -23,7 +23,6 @@
 [bg  time="1000"  method="crossfade"  storage="CG_loading_bg.jpg"  ]
 [tb_image_show  time="1"  storage="default/haro_icon_loading.gif"  width="100"  height="161"  x="755"  y="232"  _clickable_img=""  name="img_17"  ]
 [tb_image_show  time="1"  storage="default/haro_icon_loading.gif"  width="100"  height="161"  x="136"  y="232"  _clickable_img=""  ]
-[tb_image_hide  time="1000"  ]
 [tb_keyconfig  flag="1"  ]
 [jump  storage="scene1.ks"  target=""  ]
 [s  ]
