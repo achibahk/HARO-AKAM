@@ -116,8 +116,8 @@
 好想好想讓主人開心起來……[resetfont][p]
 
 #
-[font color=TEAL]降谷又搔搔哈囉的耳朵，然後起身往浴室走去。[p]
-這時放在牆邊的吉他裡，飛出一顆小光球，一閃一閃地飄向哈囉。[resetfont][p]
+[font color=TEAL]降谷又搔搔哈囉的耳朵，起身往浴室走去。[p]
+這時放在牆邊的吉他裡，緩緩飛出一顆不尋常的小光球，一閃一閃地飄向哈囉。[resetfont][p]
 [_tb_end_text]
 
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="300"  height="300"  left="118"  top="42"  reflect="false"  ]
@@ -283,7 +283,7 @@ END。[resetfont][p]
 [playse  volume="100"  time="1000"  buf="0"  storage="scotch_guitar.ogg"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]奔跑途中，哈囉差點跟不上光球。[p]
+[font color=TEAL]奔跑途中，哈囉差點跟不上光球稍快的速度。[p]
 跑了好一陣子後，光球終於在一個十字路口停下來。[resetfont][p]
 
 #哈囉
@@ -404,9 +404,8 @@ END。[resetfont][p]
 
 #
 [font color=TEAL]進了家門，赤井秀一給自己倒了杯波本，[p]
-攤在客廳沙發上，回想最近的事。[p]
-追尋真相這麼多年，終於在前陣子結束。[resetfont][p]
-
+攤在客廳沙發上，回想起這陣子的事。[p]
+奔波忙碌追尋真相這麼多年，一切在近日終於塵埃落定。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="HARO"  time="1000"  wait="true"  pos_mode="true"  ]
@@ -1046,12 +1045,12 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 哈囉！！！[p]
 
 #
-[font color=TEAL]經過一整晚的冒險，重回主人懷抱的哈囉，開心地舔著降谷撒嬌。[p]
-那張照片就這樣從哈囉口中呸出。[resetfont][p]
+[font color=TEAL]經過一整晚的冒險，哈囉終於重回主人的懷抱。[p]
+哈囉它……[resetfont][p]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene1.ks"  size="20"  text="降谷撿起哈囉咬在嘴裡的照片。"  x="268"  y="190"  width=""  height=""  _clickable_img=""  target="*rei_photo"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="照片掉在一旁，赤井秀一趁降谷不注意時收進口袋"  x="216"  y="288"  width=""  height=""  _clickable_img=""  target="*akai_photo"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="咬著照片衝向主人"  x="268"  y="190"  width=""  height=""  _clickable_img=""  target="*rei_photo"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="照片掉在一旁，赤井趁降谷不注意時收進口袋"  x="216"  y="288"  width=""  height=""  _clickable_img=""  target="*akai_photo"  ]
 [s  ]
 *akai_photo
 
@@ -1060,7 +1059,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]突然出現的哈囉抓走降谷的注意力，他摸著愛犬濕漉漉的毛髮總算放下心中大石。[p]
+[font color=TEAL]哈囉開心地舔著降谷撒嬌，突然出現的哈囉抓走降谷的注意力，[p]
+他摸著愛犬濕漉漉的毛總算放下心中大石。[p]
 確認哈囉只是弄得有點髒，其他一切都好之後，這才想起被晾在一旁的人。[p]
 看著急需盥洗的哈囉和自己，以及幫忙找狗而滿身大汗的赤井，[p]
 降谷提議到自己家稍微歇會兒。而對方也爽快地答應了。[p]
@@ -1077,7 +1077,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [font color=FIREBRICK]…………。[resetfont][p]
 #
 [font color=TEAL]會受邀來到降谷家完全出乎赤井意料之外，[p]
-他踏進降谷的家門，往屋內看去，果不其然地乾淨整齊。[p]
+他踏進降谷的家門，往屋內看去，果不其然的乾淨整齊。[p]
 原來這裡就是降谷住的地方啊……[resetfont][p]
 
 #赤井秀一
@@ -1271,8 +1271,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #
 [font color=TEAL]兩人坐回沙發，略為尷尬地喝著各自的咖啡。[p]
 身為邀請人到家裡的東道主，[p]
-還是受人幫忙找到狗的人，[p]
-降谷覺得自己得說點話。[resetfont][p]
+對方還是幫忙找到狗的恩人，[p]
+降谷覺得自己總該說點什麼。[resetfont][p]
 
 #降谷零
 真的很謝謝你願意和我一起找哈囉。[p]
@@ -2062,14 +2062,15 @@ PO-BAD END[p]
 
 [tb_start_text mode=1 ]
 #降谷零
-……[p]
+咦……[p]
+你咬著什麼？快點吐出來！呸！呸！[p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro16.png"  ]
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]主人留意到剛才我咬著的照片……我才不會把這麼重要的東西吞下去呢！[p]
-我開心地搖尾巴。[resetfont][p]
+[font color=DARKMAGENTA]主人急急忙忙拉開我的嘴……我才不會把這麼重要的東西吞下去呢！[p]
+我把照片咬到主人手上，開心地搖尾巴。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro11.png"  ]
@@ -2621,8 +2622,7 @@ PO-BAD END[p]
 
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]主人抱著我，一步一步走向赤井。[p]
-我攀著主人的手往前探，用肉球撥弄赤井的帽子。[p]
+[font color=TEAL]我攀著主人的手往前探，用肉球撥弄赤井的帽子。[p]
 怎麼了，赤井？為什麼像做錯事一樣低著頭呢？[resetfont][p]
 [_tb_end_text]
 
@@ -3388,6 +3388,7 @@ PO-BAD END[p]
 [s  ]
 *shiyu_bourbon
 
+[tb_eval  exp="f.bourbon_check+=1"  name="bourbon_check"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #降谷零
 喏。[p]
@@ -3454,6 +3455,7 @@ PO-BAD END[p]
 [s  ]
 *shiyu_bourbon2
 
+[tb_eval  exp="f.bourbon_check+=1"  name="bourbon_check"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]酒。[resetfont][p]
@@ -3494,6 +3496,7 @@ PO-BAD END[p]
 [s  ]
 *shiyu_bourbon3
 
+[tb_eval  exp="f.bourbon_check+=1"  name="bourbon_check"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=1 ]
 #降谷零
 幹嘛喝得那麼急？[p]
@@ -3505,9 +3508,21 @@ PO-BAD END[p]
 算了，就讓你喝個夠吧。[p]
 [_tb_end_text]
 
-[jump  storage="scene1.ks"  target="*shiyu_ne"  ]
+[jump  storage="scene1.ks"  target="*shiyu_ne"  cond="f.bourbon_check==3"  ]
+[jump  storage="scene1.ks"  target="*shiyu_H_scene"  cond="f.bourbon_check<3"  ]
 [s  ]
 *shiyu_coffee3
+
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]赤井把餘下的咖啡都喝光了。[resetfont][p]
+
+[_tb_end_text]
+
+[jump  storage="scene1.ks"  target="*shiyu_ne"  cond="f.bourbon_check==3"  ]
+[jump  storage="scene1.ks"  target="*shiyu_H_scene"  cond="f.bourbon_check<3"  ]
+[s  ]
+*shiyu_H_scene
 
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -3576,10 +3591,6 @@ PO-BAD END[p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="scene1.ks"  target="*shiyu_H_scene"  ]
-[s  ]
-*shiyu_H_scene
-
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
@@ -4072,6 +4083,7 @@ PO-BAD END[p]
 *shiyu_ne
 
 [tb_start_text mode=1 ]
+NE[p]
 #
 [font color=TEAL]降谷再次為赤井斟酒，赤井卻不喝。[p]
 他從眾多酒瓶中挑出唯一一瓶黑麥酒，[p]
@@ -4212,7 +4224,6 @@ PO-BAD END[p]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
 [chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="249"  top="-99"  reflect="false"  ]
-[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="-30"  top="-72"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
 [tb_start_text mode=1 ]
 #降谷零

@@ -14,4 +14,5 @@ f['s1']=0;
 f['s2']=0; 
 f['s3']=0; 
 f['s_check']=0; 
+f['bourbon_check']=0; 
 [endscript] 
