@@ -79,7 +79,7 @@
 
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]哈囉跟著降谷的方向看去，好幾張照片散落在桌上。[resetfont][p]
+[font color=TEAL]哈囉跟著降谷的方向看去，好幾張照片散在桌上。[resetfont][p]
 
 [_tb_end_text]
 
@@ -90,7 +90,7 @@
 [font color=DARKMAGENTA]我知道這個是誰，[p]
 好像是一個叫赤井的人！[p]
 主人沒事就會把這些東西拿出來看，[p]
-然後就開始嘆氣。[resetfont][p]
+然後開始嘆氣。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro3.png"  ]
@@ -271,7 +271,7 @@ END。[resetfont][p]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=CORAL]（深夜的街道上）[resetfont][p]
+[font color=CORAL]（深夜，街道上）[resetfont][p]
 
 #哈囉
 [font color=DARKMAGENTA]等等我，慢一點。[resetfont][p]
@@ -348,7 +348,7 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉把前腳扒在赤井秀一小腿上汪汪叫"  x="280"  y="183"  width=""  height=""  _clickable_img=""  target="*wow"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉奮力咬著赤井秀一褲腳，想帶他去找降谷"  x="253"  y="260"  width=""  height=""  _clickable_img=""  target="*bite1"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉奮力咬著赤井秀一褲腳，想帶他去找降谷零"  x="253"  y="260"  width=""  height=""  _clickable_img=""  target="*bite1"  ]
 [s  ]
 *wow
 
@@ -361,14 +361,14 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[jump  storage="scene1.ks"  target="*bite1"  ]
+[jump  storage="scene1.ks"  target="*reimi_a1"  ]
 [s  ]
 *bite1
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]你身上好臭，是討厭的香煙味道。[p]
+[font color=DARKMAGENTA]你身上好臭，是討厭的菸味。[p]
 可是主人看到你才會開心，快跟我回去。[resetfont][p]
 
 #
@@ -379,6 +379,10 @@ END。[resetfont][p]
 [quake  time="600"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="chihuahua-puppy-whine.ogg"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro11.png"  ]
+[jump  storage="scene1.ks"  target="*reimi_a1"  ]
+[s  ]
+*reimi_a1
+
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]趁哈囉舒服地抬頭時，把整隻狗翻看一遍，[p]
@@ -403,9 +407,9 @@ END。[resetfont][p]
 [font color=CORAL]（深夜，赤井秀一家）[resetfont][p]
 
 #
-[font color=TEAL]進了家門，赤井秀一給自己倒了杯波本，[p]
+[font color=TEAL]進了家門，赤井給自己倒了杯波本，[p]
 攤在客廳沙發上，回想起這陣子的事。[p]
-奔波忙碌追尋真相這麼多年，一切在近日終於塵埃落定。[resetfont][p]
+奔波忙碌追尋真相這麼多年，近日一切終於塵埃落定。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="HARO"  time="1000"  wait="true"  pos_mode="true"  ]
@@ -493,7 +497,7 @@ END。[resetfont][p]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]叫得有點累的哈囉，注意到赤井放在客廳長几上的皮夾，[p]
-小踏步過去聞聞後，然後一屁股窩在皮夾上。[resetfont][p]
+小踏步過去聞聞後，就一屁股窩在皮夾上。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro8.png"  ]
@@ -505,7 +509,7 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉坐住皮夾不還給赤井秀一"  x="321"  y="181"  width=""  height=""  _clickable_img=""  target="*sit1"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉把皮夾裡的紙鈔咬出來"  x="330"  y="266"  width=""  height=""  _clickable_img=""  target="*bite2"  ]
+[glink  color="black"  storage="scene1.ks"  size="20"  text="哈囉發現皮夾裡有張照片"  x="330"  y="266"  width=""  height=""  _clickable_img=""  target="*bite2"  ]
 [s  ]
 *sit1
 
@@ -537,7 +541,7 @@ END。[resetfont][p]
 [font color=TEAL]咬住赤井衣袖的哈囉使勁拉，赤井還是沒有醒來。[resetfont][p]
 
 #哈囉
-[font color=DARKMAGENTA]疑……赤井一手上有一張照片……[p]
+[font color=DARKMAGENTA]疑……赤井手上有一張照片……[p]
 照片上這個戴帽子的人，好像是主人。[resetfont][p]
 [_tb_end_text]
 
@@ -691,9 +695,9 @@ END。[resetfont][p]
 [font color=CORAL]（深夜，降谷零家）[resetfont][p]
 
 #
-[font color=TEAL]在浴室沖澡的降谷零，近來情緒有些灰暗。[p]
+[font color=TEAL]在浴室沖澡的降谷，近來情緒有些灰暗。[p]
 赤井抵達日本後，忙得寢不遑安。[p]
-他自己的工作量也不遑多讓。[resetfont][p]
+他自己的工作量也不相伯仲。[resetfont][p]
 
 #降谷零
 才沒有刻意避開那個人……是真的很忙……[p]
@@ -728,7 +732,7 @@ END。[resetfont][p]
 [bg  time="1000"  method="crossfade"  storage="CG_night.jpg"  ]
 [tb_start_text mode=1 ]
 #
-[font color=CORAL]（深夜的街道上）[resetfont][p]
+[font color=CORAL]（深夜，街道上）[resetfont][p]
 
 #
 [font color=TEAL]緊急通知風見協助探查後，降谷確認自己的居所一切沒有異狀。[p]
@@ -801,14 +805,14 @@ END。[resetfont][p]
 這才想起昨晚撿了一隻狗回家。[p]
 沒在客廳看到狗的赤井，吹著口哨想把狗叫來。[p]
 但狗消失了，不在住所的任何地方。[p]
-赤井頓時酒醒大半，飛快檢查他安放在出入口的記號。[p]
-……看來大門從內側打開又關起來過。[resetfont][p]
+赤井頓時酒醒大半，飛快檢查他安放在出入口的記號。[resetfont][p]
 [_tb_end_text]
 
 [bg  time="1000"  method="puffIn"  storage="snowuta_017_sample.jpg"  cross="true"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]就算是受過訓練的小型犬，也很難自行開關這扇門……[resetfont][p]
+[font color=FIREBRICK]……看來大門從內側打開又關起來過。[p]
+就算是受過訓練的小型犬，也很難自行開關這扇門……[resetfont][p]
 
 #
 [font color=TEAL]赤井強迫泡在酒精裡的腦袋運轉起來。[p]
@@ -829,9 +833,12 @@ END。[resetfont][p]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]皮夾裡的那張照片不見了。[p]
-不不不赤井秀一，就算狗跟照片一起不見，[p]
-也不能說是狗咬走照片，還自己開門跑走了。[p]
+[font color=TEAL]皮夾裡的那張照片不見了。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]不不不赤井秀一，就算狗跟照片一起不見，[p]
+也不能說是狗咬走照片，還自己開門跑走了。[resetfont][p]
+#
+[font color=TEAL][p]
 感覺頭愈來愈痛的赤井，決定出門尋找自己推理的漏洞。[resetfont][p]
 [_tb_end_text]
 
@@ -4083,7 +4090,6 @@ PO-BAD END[p]
 *shiyu_ne
 
 [tb_start_text mode=1 ]
-NE[p]
 #
 [font color=TEAL]降谷再次為赤井斟酒，赤井卻不喝。[p]
 他從眾多酒瓶中挑出唯一一瓶黑麥酒，[p]
