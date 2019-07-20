@@ -257,8 +257,8 @@ END。[resetfont][p]
 [font color=TEAL]哈囉想到在浴室洗澡的降谷，[p]
 遲疑了一下，但還是踏出前掌。[resetfont][p]
 #哈囉
-[font color=DARKMAGENTA]主人，哈囉馬上就回來，把那個赤井帶來。[resetfont][p]
-這樣主人就會開心了。[p]
+[font color=DARKMAGENTA]主人，哈囉馬上就回來，把那個赤井帶來。[p]
+這樣主人就會開心了。[resetfont][p]
 
 #小光球
 [font color=DARKKHAKI]……。[resetfont][p]
@@ -880,14 +880,14 @@ END。[resetfont][p]
 近看才發現降谷身上的外套，濕得像是淋了整晚的雨，[p]
 神情也有些疲憊。[resetfont][p]
 
-#降谷
+#降谷零
 赤井……你怎麼在這？[p]
 
 #
 [font color=TEAL]沒想到會在這一帶碰到赤井，[p]
 但降谷還沒準備好面對這個人。[resetfont][p]
 
-#降谷
+#降谷零
 不，我要去找人。有事先走了。[p]
 
 #
@@ -934,13 +934,13 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #赤井秀一
 [font color=FIREBRICK]沒錯，就是這隻調皮狗。[p]
-昨晚一路跟我回家不肯離開，半夜又摸走我的重要物品跑掉。[p]
+昨晚一路跟我回家不肯離開，半夜又摸走我的重要物品跑掉。[resetfont][p]
 
 #降谷零
 重要物品？你半夜門不關？還讓狗跑出去？[p]
 
 #赤井秀一
-[font color=FIREBRICK]降谷君，那麼一開始狗又是怎麼從你家跑走的呢？[p]
+[font color=FIREBRICK]降谷君，那麼一開始狗又是怎麼從你家跑走的呢？[resetfont][p]
 
 #降谷零
 你……你又知道是從家裡跑出去的？[p]
@@ -1117,6 +1117,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #赤井秀一
 [font color=FIREBRICK]......！！[resetfont][p]
 
+#
 [font color=TEAL]降谷的上衣因為吸飽雨水，而緊緊貼著精瘦結實的身體，[p]
 沿著脖頸的線條向下，左胸前的開襟底下露出半節佈滿汗水雨水的鎖骨，[p]
 再順著向下延伸的釦子，赤井嚥了嚥口水，看向胸膛前兩個小巧的突起。[p]
@@ -1126,6 +1127,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 怎麼了？[p]
 #赤井秀一
 [font color=FIREBRICK]啊不不不，沒事沒事。謝謝。[resetfont][p]
+#
 [font color=TEAL]赤井猛地抽走降谷手上的毛巾，用力拍在自己臉上，狠狠地抹了兩把。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]（這種時候想什麼呢，被降谷君發現的話，別說是把心裡話講出來了，[p]

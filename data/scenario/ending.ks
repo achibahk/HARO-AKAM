@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/ending.ks]
+[_tb_system_call storage=system/_ending.ks]
 
 [cm  ]
 [chara_hide_all  time="1000"  wait="true"  ]

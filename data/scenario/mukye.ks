@@ -313,8 +313,8 @@
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro8.png"  width="373"  height="600"  left="198"  top="38"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #哈囉
-[font color=DARKMAGENTA]我來看看赤井還有什麼會讓主人開心的東西！[resetfont][p]
-啊，有了，就是這個！[p]
+[font color=DARKMAGENTA]我來看看赤井還有什麼會讓主人開心的東西！[p]
+啊，有了，就是這個！[resetfont][p]
 
 #
 [font color=TEAL]哈囉翻出了……[resetfont][p]
