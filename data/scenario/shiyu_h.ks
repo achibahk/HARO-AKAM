@@ -571,5 +571,5 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="ending.ks"  target=""  ]
+[jump  storage="ending.ks"  target="*ending"  ]
 [s  ]

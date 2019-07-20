@@ -1086,8 +1086,12 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [resetfont][p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1711daily10_sample.jpg"  cross="true"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Pond.ogg"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="550"  height="776"  left="-19"  top="-108"  reflect="false"  ]
+[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="691"  top="99"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="550"  height="776"  left="271"  top="-113"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=CORAL]（降谷家）[resetfont][p]
@@ -1114,21 +1118,52 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #
 [font color=TEAL]赤井的目光不自覺地從降谷伸出的手移往他的胸前。[resetfont][p]
+
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_hide_message_window  ]
+[wait  time="600"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]......！！[resetfont][p]
 
+[_tb_end_text]
+
+[camera  time="1000"  zoom="2"  wait="true"  x="60"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷的上衣因為吸飽雨水，而緊緊貼著精瘦結實的身體，[p]
-沿著脖頸的線條向下，左胸前的開襟底下露出半節佈滿汗水雨水的鎖骨，[p]
-再順著向下延伸的釦子，赤井嚥了嚥口水，看向胸膛前兩個小巧的突起。[p]
+沿著脖頸的線條向下，左胸前的開襟底下露出半節佈滿汗水雨水的鎖骨，[resetfont][p]
+[_tb_end_text]
+
+[camera  time="1000"  zoom="2"  wait="true"  x="60"  y="-80"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]再順著向下延伸的釦子，赤井嚥了嚥口水，看向胸膛前兩個小巧的突起。[p]
 不知是昨夜宿醉未醒，還是真是如此，[p]
 赤井覺得自己好像看見粉色乳頭的形狀......[resetfont][p]
+[_tb_end_text]
+
+[reset_camera  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
 #降谷零
 怎麼了？[p]
 #赤井秀一
 [font color=FIREBRICK]啊不不不，沒事沒事。謝謝。[resetfont][p]
+
+
+[_tb_end_text]
+
+[quake  time="600"  count="3"  hmax="10"  wait="true"  ]
+[chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井猛地抽走降谷手上的毛巾，用力拍在自己臉上，狠狠地抹了兩把。[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]（這種時候想什麼呢，被降谷君發現的話，別說是把心裡話講出來了，[p]
 現在就會立刻被一拳一腳外加一狗咬地轟出去。）[resetfont][p]
@@ -1146,7 +1181,6 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [font color=FIREBRICK]…………。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [glink  color="black"  storage="po_ne.ks"  size="20"  text="等待降谷零"  x="377"  y="186"  width=""  height=""  _clickable_img=""  target="*route_po2"  ]
 [glink  color="black"  storage="mukye.ks"  size="20"  text="看向浴室"  target="*route_mukye"  x="387"  y="267"  width=""  height=""  _clickable_img=""  ]
 [s  ]

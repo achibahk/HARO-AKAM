@@ -304,5 +304,5 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[jump  storage="ending.ks"  target=""  ]
+[jump  storage="ending.ks"  target="*ending"  ]
 [s  ]

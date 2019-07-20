@@ -348,7 +348,7 @@
 
 #赤井秀一
 [font color=FIREBRICK]算是吧，最近一直煩惱著一件事，心情也不太好。[resetfont][p]
-
+#
 [font color=TEAL]赤井輕輕嘆了一口氣，向後靠到沙發椅背上。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]該怎麼說呢......[p]
@@ -641,5 +641,5 @@
 [chara_hide  name="SCOTCH"  time="2000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="ending.ks"  target=""  ]
+[jump  storage="ending.ks"  target="*ending"  ]
 [s  ]

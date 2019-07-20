@@ -1097,5 +1097,4 @@
 [jump  storage="shiyu_ne.ks"  target="*route_shiyun"  cond="f.bourbon_check==3"  ]
 [jump  storage="shiyu_h.ks"  target="*route_shiyuh"  cond="f.bourbon_check<3"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="ending.ks"  target=""  ]
 [s  ]
