@@ -2,5 +2,4 @@
 [preload  storage="./data/bgimage/snowuta_018y_sample.jpg"  ]
 [preload  storage="./data/fgimage/default/title.png"  ]
 [preload  storage="./data/bgimage/CG_loading_bg.jpg"  ]
-[preload  storage="./data/fgimage/default/haro_icon_loading.gif"  ]
 [return]

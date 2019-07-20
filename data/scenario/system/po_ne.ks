@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/snowuta_018y_sample.jpg"  ]
+[preload  storage="./data/fgimage/default/波BE_彈吉他.jpg"  ]
+[preload  storage="./data/fgimage/default/威士忌_斜.png"  ]
+[preload  storage="./data/fgimage/default/威士忌合照.jpg"  ]
+[preload  storage="./data/fgimage/default/波BE_哈囉睡覺.jpg"  ]
+[return]
