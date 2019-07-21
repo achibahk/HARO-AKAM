@@ -84,11 +84,7 @@
 
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
-[tb_image_show  time="1000"  storage="default/威士忌_斜.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_28"  ]
-[wait  time="600"  ]
-[tb_image_hide  time="1000"  ]
-[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro4.png"  width="373"  height="600"  left="256"  top="27"  reflect="false"  ]
+[chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro4.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_bark.ogg"  ]
 [tb_start_text mode=1 ]
 #哈囉
@@ -192,7 +188,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/CG_BE_reimi.jpg"  width="960"  height="640"  name="img_64"  ]
+[tb_image_show  time="1000"  storage="default/CG_BE_reimi.jpg"  width="960"  height="640"  name="img_60"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -376,18 +372,21 @@ END。[resetfont][p]
 [font color=DARKMAGENTA]你身上好臭，是討厭的菸味。[p]
 可是主人看到你才會開心，快跟我回去。[resetfont][p]
 
+[_tb_end_text]
+
+[quake  time="600"  count="3"  hmax="10"  wait="true"  ]
+[jump  storage="scene1.ks"  target="*reimi_a1"  ]
+[s  ]
+*reimi_a1
+
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井用眼角餘光確認周圍後，便蹲低搔起哈囉的下巴。[resetfont][p]
 
 [_tb_end_text]
 
-[quake  time="600"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="chihuahua-puppy-whine.ogg"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro11.png"  ]
-[jump  storage="scene1.ks"  target="*reimi_a1"  ]
-[s  ]
-*reimi_a1
-
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]趁哈囉舒服地抬頭時，把整隻狗翻看一遍，[p]
@@ -550,7 +549,7 @@ END。[resetfont][p]
 照片上這個戴帽子的人，好像是主人。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/威士忌_斜.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_169"  ]
+[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_166"  ]
 [wait  time="600"  ]
 [tb_image_hide  time="1000"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro4.png"  ]
@@ -580,7 +579,7 @@ END。[resetfont][p]
 赤井赤井，我知道能讓你開心的人在哪裡，快跟我回去。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/威士忌_斜.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_181"  ]
+[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_181"  ]
 [wait  time="600"  ]
 [tb_image_hide  time="1000"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro1.png"  ]
@@ -796,7 +795,7 @@ END。[resetfont][p]
 [font color=FIREBRICK]降谷君……[resetfont][p]
 
 #
-[font color=TEAL]夢中的降谷零微笑著跟他說再見，然後轉身離去。[p]
+[font color=TEAL]夢中的降谷微笑著跟他說再見，然後轉身離去。[p]
 他伸手想攔住降谷時，夢境就結束了。[resetfont][p]
 [_tb_end_text]
 

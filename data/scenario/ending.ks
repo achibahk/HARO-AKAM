@@ -30,7 +30,7 @@
 [wait  time="4000"  ]
 [tb_image_hide  time="1000"  ]
 [tb_image_show  time="1000"  storage="default/語扉3.jpg"  width="960"  height="640"  name="img_27"  ]
-[tb_ptext_show  x="593"  y="252"  size="30"  color="0xffffff"  time="1200"  text="【共通線編劇】"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
+[tb_ptext_show  x="593"  y="252"  size="30"  color="0xffffff"  time="1200"  text="【支線編劇】"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [tb_ptext_show  x="652"  y="323"  size="30"  color="0xffffff"  time="1200"  text="雨妃斯"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [tb_ptext_show  x="589"  y="384"  size="30"  color="0xffffff"  time="300"  text="Plurk：b150427"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [wait  time="4000"  ]

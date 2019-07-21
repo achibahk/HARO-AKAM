@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/preview.ks ]
+[_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
 [bg  time="10"  method="crossfade"  storage="1711daily10_sample.jpg"  cross="true"  ]
