@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/ending.ks]
+[_tb_system_call storage=system/_ending.ks]
 
 *ending
 

@@ -85,7 +85,10 @@
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro4.png"  ]
+[chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="575"  top="27"  width="373"  height="600"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_bark.ogg"  ]
+[tb_image_show  time="1000"  storage="default/威士忌_赤井個照.png"  width="450"  height="515"  x="254"  y="30"  _clickable_img=""  name="img_30"  ]
+[wait  time="600"  ]
 [tb_start_text mode=1 ]
 #哈囉
 [font color=DARKMAGENTA]我知道這個是誰，[p]
@@ -94,6 +97,8 @@
 然後開始嘆氣。[resetfont][p]
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
+[chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="256"  top="27"  width="373"  height="600"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro3.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_growled.ogg"  ]
 [tb_start_text mode=1 ]
@@ -188,7 +193,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/CG_BE_reimi.jpg"  width="960"  height="640"  name="img_60"  ]
+[tb_image_show  time="1000"  storage="default/CG_BE_reimi.jpg"  width="960"  height="640"  name="img_65"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -468,14 +473,23 @@ END。[resetfont][p]
 [font color=FIREBRICK]不在我身上的屁股，想擦也擦不到啊……詹姆斯。[resetfont][p]
 #
 [font color=TEAL]乾了杯中的波本，三個月前跟降谷的那場談話，彷彿還在耳邊。[resetfont][p]
-[font color=darkred]樓梯……蘇格蘭……槍聲……死亡。[p]
-最後降谷抬起頭說：[p]
-#降谷零
-「其實我一直都明白…很感謝你所做的一切，赤井搜查官」。[resetfont][p]
 #
-[font color=TEAL]赤井發現自己陷入一種莫名的焦躁，在追尋真相的漫長過程中，從沒有過這樣的感受。[resetfont][p]
+[font color=darkred]樓梯……蘇格蘭……槍聲……死亡。[p]
+最後降谷抬起頭說：[resetfont][p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/米事件圖.jpg"  width="960"  height="640"  name="img_152"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#降谷零
+[font color=darkred]「其實我一直都明白…很感謝你所做的一切，赤井搜查官」。[resetfont][p]
+#
+[font color=TEAL]赤井發現自己陷入一種莫名的焦躁，[p]
+在追尋真相的漫長過程中，從沒有過這樣的感受。[resetfont][p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_tyrano_code]
 [free_filter]
@@ -543,13 +557,15 @@ END。[resetfont][p]
 
 #
 [font color=TEAL]咬住赤井衣袖的哈囉使勁拉，赤井還是沒有醒來。[resetfont][p]
+[_tb_end_text]
 
+[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_176"  ]
+[tb_start_text mode=1 ]
 #哈囉
 [font color=DARKMAGENTA]疑……赤井手上有一張照片……[p]
 照片上這個戴帽子的人，好像是主人。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_166"  ]
 [wait  time="600"  ]
 [tb_image_hide  time="1000"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro4.png"  ]
@@ -571,6 +587,8 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro4.png"  ]
+[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_188"  ]
+[wait  time="600"  ]
 [tb_start_text mode=1 ]
 #哈囉
 [font color=DARKMAGENTA]啊，這是什麼，是一張照片！[p]
@@ -579,8 +597,6 @@ END。[resetfont][p]
 赤井赤井，我知道能讓你開心的人在哪裡，快跟我回去。[resetfont][p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/威士忌_斜2.png"  width="592"  height="482"  x="150"  y="35"  _clickable_img=""  name="img_181"  ]
-[wait  time="600"  ]
 [tb_image_hide  time="1000"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro1.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_bark2.ogg"  ]
@@ -607,12 +623,12 @@ END。[resetfont][p]
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="300"  height="300"  left="530"  top="124"  reflect="false"  ]
 [chara_move  name="SCOTCH"  anim="true"  time="300"  effect="easeOutQuart"  wait="true"  left="55"  top="46"  width="300"  height="300"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro6.png"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="scotch_guitar.ogg"  ]
 [tb_start_text mode=1 ]
 #小光球
 [font color=DARKKHAKI]……！[resetfont][p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="scotch_guitar.ogg"  ]
 [tb_start_text mode=1 ]
 #哈囉
 [font color=DARKMAGENTA]什麼，你說把這張照片帶回去給主人，他也會開心！[p]
@@ -642,8 +658,7 @@ END。[resetfont][p]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Spec_Ops.ogg"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL][p]
-嚇得愣住的哈囉，耳邊傳來尖銳的剎車聲和車主的叫罵聲。[p]
+[font color=TEAL]嚇得愣住的哈囉，耳邊傳來尖銳的剎車聲和車主的叫罵聲。[p]
 哈囉回神後，發現自己咬著的那張照片，已經被風吹跑了。[resetfont][p]
 [_tb_end_text]
 
@@ -699,7 +714,7 @@ END。[resetfont][p]
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1711daily10n1_sample.jpg"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="245"  top="-94"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A4-3-1.png"  width="390"  height="640"  left="305"  top="7"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=CORAL]（深夜，降谷零家）[resetfont][p]
@@ -708,42 +723,80 @@ END。[resetfont][p]
 [font color=TEAL]在浴室沖澡的降谷，近來情緒有些灰暗。[p]
 赤井抵達日本後，忙得寢不遑安。[p]
 他自己的工作量也不相伯仲。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-3-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 才沒有刻意避開那個人……是真的很忙……[p]
 
-#
-[font color=TEAL]但是見了面不知該說些什麼，也是事實。[p]
-擦乾頭髮的降谷，忽然發覺外頭實在太安靜了，[p]
-明明剛才哈囉還在又叫又跳，自己玩得很開心。[resetfont][p]
 [_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-3-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]但是見了面不知該說些什麼，也是事實。[p]
+擦乾頭髮的降谷，忽然發覺外頭實在太安靜了，[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-2-2.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Beginning_of_Conflict.ogg"  ]
 [tb_start_text mode=1 ]
 #
+[font color=TEAL]明明剛才哈囉還在又叫又跳，自己玩得很開心。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-5-1.png"  ]
+[tb_start_text mode=1 ]
+#
 [font color=TEAL]握著洗臉台上的美髮剪，降谷探出浴室。[p]
-自己的居所哪裡適合躲藏伏擊，降谷再清楚不過，[p]
-一一檢查後什麼都沒有發現……連哈囉也沒有發現！[resetfont][p]
+自己的居所哪裡適合躲藏伏擊，降谷再清楚不過，[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-8-7.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]一一檢查後什麼都沒有發現……連哈囉也沒有發現！[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]這是怎麼回事？完全沒有任何人入侵，[p]
-外頭也沒有埋伏的跡象，就只有哈囉憑空消失了。[p]
-這個超現實的狀況，就算是公安精英也愣了一下。[p]
-握著哈囉項圈的降谷，深吸了一口氣。[p]
-總之必需行動起來。[p]
-降谷迅速將幾份絕密資料在廚房燒燼，穿上外衣離開住所。[p]
-然後，找狗。[p]
+外頭也沒有埋伏的跡象，就只有哈囉憑空消失了。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-8-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]這個超現實的狀況，就算是公安精英也愣了一下。[p]
+握著哈囉項圈的降谷，深吸了一口氣。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-3-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]總之必需行動起來。[p]
+降谷迅速將幾份絕密資料在廚房燒燼，穿上外衣離開住所。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A4-5-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]然後，找狗。[p]
 對，用最老套的方式，[p]
 把他帶哈囉去過的那些地方都找一遍。[resetfont][p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A7-3-1.png"  ]
 [bg  time="1000"  method="crossfade"  storage="CG_night.jpg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=CORAL]（深夜，街道上）[resetfont][p]
-
 #
 [font color=TEAL]緊急通知風見協助探查後，降谷確認自己的居所一切沒有異狀。[p]
 降谷走在下雨的街道上，思考這到底是怎麼回事。[resetfont][p]
@@ -751,10 +804,11 @@ END。[resetfont][p]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="soft_rain.ogg"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/CG_night_rain.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_237"  ]
+[tb_image_show  time="1000"  storage="default/CG_night_rain.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_261"  ]
 [wait  time="600"  ]
 [bg  time="1000"  method="crossfade"  storage="CG_night_rain.jpg"  ]
 [tb_show_message_window  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A7-1-2.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 「排除所有不可能的事實後，[p]
@@ -762,14 +816,22 @@ END。[resetfont][p]
 
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="soft_rain.ogg"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="1711daily07n_sample.jpg"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A7-2-2.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]但剩下的是什麼，哈囉被神隱了？[p]
 還是自己穿牆跑出去玩了？[p]
-就算是狗體自燃也會留下痕跡吧……[p]
-心煩意亂的降谷拉上帽兜，繼續往附近的住宅區一路找過去。[resetfont][p]
+就算是狗體自燃也會留下痕跡吧……[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A7-2-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]心煩意亂的降谷拉上帽兜，繼續往附近的住宅區一路找過去。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -790,6 +852,10 @@ END。[resetfont][p]
 #
 [font color=TEAL]在睡夢中的赤井忽然使勁向前伸出手，像是想抓住什麼。[p]
 下一秒就睜眼驚醒過來。[resetfont][p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 
 #赤井秀一
 [font color=FIREBRICK]降谷君……[resetfont][p]
@@ -868,7 +934,7 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="-45"  top="-79"  width="511"  height="719"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="391"  top="-90"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-8-7.png"  width="390"  height="640"  left="440"  top="0"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Nostalgic_Piano.ogg"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -878,14 +944,20 @@ END。[resetfont][p]
 [font color=TEAL]小跑步到降谷身邊的赤井，先開口打招呼。[p]
 近看才發現降谷身上的外套，濕得像是淋了整晚的雨，[p]
 神情也有些疲憊。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-5-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 赤井……你怎麼在這？[p]
 
 #
 [font color=TEAL]沒想到會在這一帶碰到赤井，[p]
 但降谷還沒準備好面對這個人。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-7.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 不，我要去找人。有事先走了。[p]
 
@@ -896,7 +968,7 @@ END。[resetfont][p]
 [font color=FIREBRICK]等等，降谷君。[resetfont][p]
 [_tb_end_text]
 
-[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="484"  top="-92"  width="520"  height="734"  ]
+[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="550"  top="0"  width="390"  height="640"  ]
 [chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="270"  top="-65"  width="511"  height="719"  ]
 [tb_start_text mode=1 ]
 #
@@ -907,18 +979,29 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="87"  top="-74"  width="511"  height="719"  ]
-[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="412"  top="-92"  width="520"  height="734"  ]
+[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="461"  top="0"  width="390"  height="640"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-8-1.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]這是……寵物項圈。[p]
-上面還刻了名字，叫哈囉。[p]
-降谷君，你一大清早是出來找人，[p]
-還是出來找你的寵物？[resetfont][p]
+上面還刻了名字，叫哈囉。[resetfont][p]
 
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-1.png"  ]
+[tb_start_text mode=1 ]
+#赤井秀一
+[font color=FIREBRICK]降谷君，你一大清早是出來找人，[p]
+還是出來找你的寵物？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-5-4.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A8-8-2.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]不，只是我昨晚在這附近遇到一隻狗，[p]
@@ -927,36 +1010,64 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #
 [font color=TEAL]赤井沒必要說謊，他可能真的看過哈囉。[p]
 降谷拿出手機點開相簿，選了張哈囉的照片給赤井看。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-4.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 喏，是這隻狗嗎？[p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-8-5.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]沒錯，就是這隻調皮狗。[p]
 昨晚一路跟我回家不肯離開，半夜又摸走我的重要物品跑掉。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-4-5-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 重要物品？你半夜門不關？還讓狗跑出去？[p]
 
 #赤井秀一
 [font color=FIREBRICK]降谷君，那麼一開始狗又是怎麼從你家跑走的呢？[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-5-4-S.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 你……你又知道是從家裡跑出去的？[p]
 說不定是出來散步時跑掉的啊。[p]
 
 #
-[font color=TEAL]降谷嘟囔地說著，邊把手機收回褲袋。[p]
-在降谷點進手機相簿時，赤井似乎看到了自己的照片，[p]
-但現在並不是個確認的好時機。[resetfont][p]
+[font color=TEAL]降谷嘟囔地說著，邊把手機收回褲袋。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]在降谷點進手機相簿時，赤井似乎看到了自己的照片，[p]
+但現在並不是個確認的好時機。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-8-7.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君，既然這樣，我跟你一起找哈囉吧。[p]
 你知道哈囉可能會去哪些地方，[p]
 我要找回被哈囉咬走的東西。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-2-4.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 那還真是謝謝你啊。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-2-5.png"  ]
+[tb_start_text mode=1 ]
+#降谷零
 到底可以被狗偷走什麼貴重物品？[p]
 
 #
@@ -964,16 +1075,27 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 赤井把傘撐在二人中間，配合降谷的腳步併肩向前。[resetfont][p]
 [_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-4-4.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]二人沿路叫著哈囉的名字，[p]
 撥開路邊的樹叢，查看狹窄的小巷，[p]
 還是沒有找到哈囉。[p]
-在遇到赤井之前，降谷差點懷疑一切都是自己太累產生的幻覺。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]在遇到赤井之前，降谷差點懷疑一切都是自己太累產生的幻覺。[p]
 只要回到住所，就可以看到哈囉躺在床上睡到翻肚。[p]
 但赤井也看到哈囉了，[p]
 他們二個人一起產生幻覺的機率簡直是零。[resetfont][p]
 
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-1-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 前面的公園，我曾經帶哈囉去散步過，說不定在那。[p]
 
@@ -982,15 +1104,21 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="snowuta_002_sample.jpg"  cross="true"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-2-7.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]降谷嗯了聲，走進涼亭內的長椅坐下。[p]
-椅面寬敞得很，赤井卻硬要擠在降谷邊上，[p]
+[font color=TEAL]降谷嗯了聲，走進涼亭內的長椅坐下。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-4-C.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]椅面寬敞得很，赤井卻硬要擠在降谷邊上，[p]
 二人的肩膀大腿都快要靠在一起。[resetfont][p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="cg_gazebo.jpg"  cross="true"  ]
-[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="490"  top="-78"  width="520"  height="734"  ]
+[chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="555"  top="39"  width="390"  height="640"  ]
 [chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="270"  top="-42"  width="511"  height="719"  ]
 [tb_start_text mode=1 ]
 #
@@ -998,16 +1126,32 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #赤井秀一
 [font color=FIREBRICK]降谷君，聽說狗只有在一種時候會自己跑去躲起來……[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-5-7.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 別胡說！哈囉還是隻小狗，而且健康得很。[p]
 如果真的是那樣，他跑去找你幹嘛？[p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-5-3.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]也是，牠昨晚咬我褲管的力道可不小。[p]
 一路跟著我回家，像鎖定目標的獵犬一樣。[p]
-等等，你該不會給哈囉看過我的照片吧？[resetfont][p]
 
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-3-4-C.png"  ]
+[tb_start_text mode=1 ]
+#赤井秀一
+[font color=FIREBRICK]等等，你該不會給哈囉看過我的照片吧？[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-8-7-S.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 少……少往自己臉上貼金了FBI。[p]
 
@@ -1047,8 +1191,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 *photo_selection
 
 [bg  time="1000"  method="crossfade"  storage="snowuta_002_sample.jpg"  cross="true"  ]
-[chara_show  name="REI"  time="1000"  wait="false"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="490"  top="-78"  ]
-[chara_show  name="AKAI"  time="1000"  wait="false"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="270"  top="-42"  ]
+[chara_show  name="REI"  time="1000"  wait="false"  storage="chara/2/A8-8-7-S.png"  width="390"  height="640"  left="555"  top="39"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="false"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="270"  top="-42"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷才剛反駁完赤井，腳邊就撞來一個溫熱的物體。[resetfont][p]
@@ -1057,10 +1201,14 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="0"  top="119"  reflect="false"  ]
 [chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="602"  top="247"  width="220"  height="354"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-8-6.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈囉！！！[p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-6-6.png"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]經過一整晚的冒險，哈囉終於重回主人的懷抱。[p]
 哈囉它……[resetfont][p]
@@ -1074,15 +1222,25 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [stopbgm  time="1000"  fadeout="true"  ]
 [stopse  time="1000"  buf="1"  ]
 [stopse  time="1000"  buf="0"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-6-6.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]哈囉開心地舔著降谷撒嬌，突然出現的哈囉抓走降谷的注意力，[p]
-他摸著愛犬濕漉漉的毛總算放下心中大石。[p]
-確認哈囉只是弄得有點髒，其他一切都好之後，這才想起被晾在一旁的人。[p]
+他摸著愛犬濕漉漉的毛總算放下心中大石。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-1-4.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]確認哈囉只是弄得有點髒，其他一切都好之後，這才想起被晾在一旁的人。[p]
 看著急需盥洗的哈囉和自己，以及幫忙找狗而滿身大汗的赤井，[p]
-降谷提議到自己家稍微歇會兒。而對方也爽快地答應了。[p]
-就這樣，降谷帶著哈囉與赤井回到自己家。[p]
-[resetfont][p]
+降谷提議到自己家稍微歇會兒。而對方也爽快地答應了。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-1-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]就這樣，降谷帶著哈囉與赤井回到自己家。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -1090,7 +1248,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Pond.ogg"  ]
 [chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="550"  height="776"  left="-19"  top="-108"  reflect="false"  ]
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="691"  top="99"  reflect="false"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="550"  height="776"  left="271"  top="-113"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-1-1.png"  width="390"  height="640"  left="345"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=CORAL]（降谷家）[resetfont][p]
@@ -1103,17 +1261,36 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 #赤井秀一
 [font color=FIREBRICK]不好意思打擾了。[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-2-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 啊，濕的雨傘放這邊就行了。[p]
 
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A8-1-4.png"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井收起雨傘，而降谷沒有拿傘，在外折騰這一遭後全身都濕透了。[p]
-看來是真的著急著要找哈囉，完全不顧及自己。[p]
-等赤井回過神，降谷已經脫下溼透的外套，拿了一條乾淨的毛巾出來。[resetfont][p]
+看來是真的著急著要找哈囉，完全不顧及自己。[resetfont][p]
+
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-3-1.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]等赤井回過神，降谷已經脫下溼透的外套，拿了一條乾淨的毛巾出來。[resetfont][p]
 
 #降谷零
 這條毛巾是新的，不介意的話就拿去用吧。[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 
 #
 [font color=TEAL]赤井的目光不自覺地從降谷伸出的手移往他的胸前。[resetfont][p]
@@ -1131,6 +1308,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [camera  time="1000"  zoom="2"  wait="true"  x="60"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A3-3-1.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷的上衣因為吸飽雨水，而緊緊貼著精瘦結實的身體，[p]
@@ -1141,22 +1319,33 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]再順著向下延伸的釦子，赤井嚥了嚥口水，看向胸膛前兩個小巧的突起。[p]
-不知是昨夜宿醉未醒，還是真是如此，[p]
-赤井覺得自己好像看見粉色乳頭的形狀......[resetfont][p]
+不知是昨夜宿醉未醒，還是真是如此，[resetfont][p]
+
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]赤井覺得自己好像看見粉色乳頭的形狀......[resetfont][p]
 [_tb_end_text]
 
 [reset_camera  time="1000"  wait="true"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-1-2.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 怎麼了？[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]啊不不不，沒事沒事。謝謝。[resetfont][p]
-
 
 [_tb_end_text]
 
 [quake  time="600"  count="3"  hmax="10"  wait="true"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-1-1.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井猛地抽走降谷手上的毛巾，用力拍在自己臉上，狠狠地抹了兩把。[resetfont][p]
@@ -1166,16 +1355,33 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #赤井秀一
 [font color=FIREBRICK]（這種時候想什麼呢，被降谷君發現的話，別說是把心裡話講出來了，[p]
 現在就會立刻被一拳一腳外加一狗咬地轟出去。）[resetfont][p]
+[_tb_end_text]
 
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-3-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 我和哈囉去沖一下澡，你就當在自己家裡，不用拘束。失陪一下。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-1-1.png"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷沒有發現赤井遊走在自己身上的視線，[p]
-把赤井留在客廳，打算藉著先去洗澡，暫時逃避和赤井的接觸。[p]
-降谷說完後走進浴室，接著突然又想起什麼、在裡頭大聲對赤井說：[resetfont][p]
+把赤井留在客廳，打算藉著先去洗澡，暫時逃避和赤井的接觸。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A3-1-2.png"  ]
+[tb_start_text mode=1 ]
+#
+[font color=TEAL]降谷說完後走進浴室，接著突然又想起什麼、在裡頭大聲對赤井說：[resetfont][p]
 
 #降谷零
 啊、如果你想換件衣服，到我房間隨便拿就好！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]…………。[resetfont][p]
 [_tb_end_text]
