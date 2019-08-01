@@ -3,18 +3,36 @@
 [cm  ]
 *route_shiyuh
 
+[tb_show_message_window  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-5-1.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]我很抱歉說了謊。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]其實我不是為了東京奧運來日本的。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-4.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
-是大騙子啊。[p]
-也罷，我習慣了……你這連死都能詐欺的慣犯。[p]
+……你這連死都能詐欺的慣犯。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-6-6.png"  ]
+[tb_start_text mode=1 ]
+也罷，我習慣了。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-7-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]你討厭這樣嗎？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-5-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
-……不討厭。[p]
+不討厭哦。[p]
 #降谷零
 但我可不像你，是很誠實的。[p]
 #降谷零
@@ -22,6 +40,10 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_10"  ]
+[wait  time="600"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]拿著照片的那隻手覆住了赤井的眼睛。[resetfont][p]
@@ -35,50 +57,63 @@
 ……你為什麼還留著這張照片？[p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  ]
-[wait  time="600"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]一片黑暗中，赤井吞了口唾沫。[p]
 他感覺到降谷的另一隻手覆住了他的掌心，兩人的肌膚之間，隔著一片薄薄的方形物體，四個角稍稍刺痛了他。[resetfont][p]
-[font color=TEAL]降谷君拿著另一張照片。[p]
-問題是，究竟是哪一張？[resetfont][p]
-[font color=TEAL]他們從未停止互相刺探。[p]
-從以前，到現在。[resetfont][p]
+[font color=TEAL]降谷拿著另一張照片，似是某種暗示。[p]
+[font color=TEAL]他們從未停止互相刺探－－從以前，到現在。[resetfont][p]
 [font color=TEAL]到現在他也無法肯定，如果說出了此刻心中的想法，[p]
 這雙手移開之後，他看見的會是怎樣的表情。[resetfont][p]
-[font color=TEAL]他可以說謊，可以搪塞。[p]
-但是這樣就可以了嗎？[resetfont][p]
+[font color=TEAL]他可以說謊，可以搪塞，但是這樣就可以了嗎？[resetfont][p]
 [font color=TEAL]一直這樣下去可以嗎？[resetfont][p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-1-2.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]為了調查你們，我才留著那張照片……[p]
 但現在我把它帶在身上，是另外一個理由。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 是什麼？[p]
 #赤井秀一
 [font color=FIREBRICK]……[p]
 ……因為我[p]
 …………大概[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-6-2.png"  ]
+[tb_start_text mode=1 ]
 喜歡上你了。[resetfont][p]
 #降谷零
 ……[p]
+
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-5-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 我就說吧。[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉2.jpg"  width="960"  height="640"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #降谷零
 我留著這張照片的理由和你一樣……[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="kiss.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -89,13 +124,8 @@
 為什麼會變成這樣……[p]
 #
 [font color=TEAL]赤井的吻技令人暈陶陶的，不知不覺地沉溺……從客廳一路走進臥室，順利得過頭。[resetfont][p]
-
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉2.jpg"  width="960"  height="640"  ]
-[wait  time="600"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
 #
@@ -134,7 +164,6 @@
 你以為誰都能隨便碰我嗎？[p]
 [_tb_end_text]
 
-[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]原本在身上游移的撫摸一頓，隨後傳來赤井的低笑。[resetfont][p]
@@ -165,6 +194,7 @@
 [font color=FIREBRICK]為什麼……？[resetfont][p]
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井的聲音揉合了太多情緒。[p]
@@ -502,8 +532,6 @@
 當然可以了，人家是狗狗嘛！[resetfont][p]
 [font color=TEAL]主人在哪裡呢～[resetfont][p]
 [font color=TEAL]我豎起耳朵，聽見浴室裡有聲音。[resetfont][p]
-
-
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="dog_bark.ogg"  ]

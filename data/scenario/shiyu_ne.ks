@@ -9,8 +9,17 @@
 他從眾多酒瓶中挑出唯一一瓶黑麥酒，[p]
 當著降谷有些驚愕的面，緩緩注入盈著波本的酒杯。[resetfont][p]
 [font color=TEAL]無人言語，冰塊發出嗶啵的碎裂聲，更顯得一室寧靜。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-6-2.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]喝嗎？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-4-7-C.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……你想喝調酒？[p]
 #赤井秀一
@@ -19,11 +28,25 @@
 [font color=FIREBRICK]我只想要Forgiven。[resetfont][p]
 #降谷零
 ……[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-4-1-C.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 波本混黑麥？我調給你總行了吧，別糟蹋我的酒。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
+[tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷還真的挽起袖子調起酒來，[p]
 先是選了裸麥威士忌作為基酒，認真地挑選適合搭配的廠牌與比例。[resetfont][p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="pour-water1.ogg"  ]
+[tb_start_text mode=1 ]
 [font color=TEAL]赤井悶了，唯一可安慰他的就是手上那杯悶酒。[p]
 但喝了之後居然更悶了，他沒抓好比例，[p]
 波本的甜與黑麥的辛在味蕾上各行其是，一點都不協調。[resetfont][p]
@@ -32,48 +55,98 @@
 [font color=TEAL]是他太急了，還是降谷在暗示什麼呢？[p]
 赤井有些氣餒，抓了瓶酒就往肚子裡灌。[p]
 前一天喝的酒還留著後勁，宿醉還沒完全褪去，又喝了這麼多酒，他有些醉了。[resetfont][p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A2-4-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……好了。[p]
 #
 [font color=TEAL]降谷將認真調了許久的酒杯奉上，吸引已半醉的赤井注意。[resetfont][p]
+
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="take.ogg"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-2-4-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]這是……[resetfont][p]
 #
-[font color=TEAL]一入口就知道了，認真調製的這杯酒果然不同：[p]
-風味獨特，不是酒吧菜單上能見到的制式調酒，[p]
-既有Rye的勁道，又能嘗到Bourbon柔和的甜香。[resetfont][p]
+[font color=TEAL]一入口就知道了，認真調製的酒果然不同。[p]
+風味獨特，不是酒吧菜單上能見到的制式調酒，有Rye的勁道，也能嘗到Bourbon柔和的甜香。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-6-6.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 如何？[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-2-3-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]非常好喝……[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 嗯哼。[p]
-#降谷零
-真沒想到……[p]
-竟然能讓你喝到我調的酒。[p]
-#降谷零
-……本來以為連見面都不可能了。[p]
+沒想到竟然能調酒給你喝，本來以為連見面都不可能了。[p]
 該感謝東京奧運呢……[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-2-4-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……抱歉。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]其實我不是為了東京奧運來日本的。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-8-7.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 欸？[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-3-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……[p]
 #降谷零
 你這連死都能詐欺的慣犯……[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-3-7.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 算了。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-2-1-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]你不問我回來的理由嗎？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 你會認真回答嗎？[p]
 #赤井秀一
 [font color=FIREBRICK]啊啊。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-5-3-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]喝了這麼多，壯膽已經夠了。[resetfont][p]
+[font color=FIREBRICK]已經喝了這麼多，壯膽也夠了。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-4-7-W.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 什麼……？[p]
 [_tb_end_text]
@@ -89,6 +162,10 @@
 [font color=TEAL]降谷的思緒仍凝固成一團，錯失了反抗的時機。[p]
 赤井還真借酒壯了膽，一手與他十指交握，[p]
 另一手開始在腰間游移，不只鑽進上衣覆蓋的地方，甚至往腰際線以下進攻……[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-8-2-S.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 咦、[p]
 #降谷零
@@ -97,11 +174,15 @@
 等一下，酒灑到我衣服上了……！[p]
 你想喝的話我再去拿……[p]
 #赤井秀一
-[font color=FIREBRICK]波本酒我已經喝得很夠了。[resetfont][p]
+[font color=FIREBRICK]波本酒我已經喝夠了。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]我現在想嘗的是你……[resetfont][p]
 #降谷零
 你……在說什麼傻話……[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-6-4-C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君……[resetfont][p]
 #赤井秀一
@@ -114,6 +195,10 @@
 [font color=FIREBRICK]……[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-8-2-W.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ？[p]
 #
@@ -124,9 +209,18 @@
 赤……井？[p]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]……[p]
-呼……[resetfont][p]
+[font color=FIREBRICK]…………[resetfont][p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="hitting-bed-with-pillow1.ogg"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-9-4-C.png"  ]
+[tb_start_text mode=1 ]
+#赤井秀一
+[font color=FIREBRICK]呼……[resetfont][p]
 #降谷零
 ……睡[p]
 睡著了……[p]
@@ -135,6 +229,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-8-5-D.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 這是在跟我開玩笑嗎？！[p]
@@ -142,7 +237,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="249"  top="-99"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A2-4-7-W.png"  width="390"  height="640"  left="249"  top="-99"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -160,9 +255,15 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-5-7-W.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 等等，這應該不是我的錯吧！[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……[p]
 #降谷零
@@ -178,8 +279,12 @@
 給我起來……[p]
 #降谷零
 你對我到底是怎麼想的……說清楚啊……[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A2-3-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
-……可惡[p]
+……可惡。[p]
 #降谷零
 在我身上摸來摸去……[p]
 #降谷零
@@ -188,25 +293,41 @@
 ……[p]
 #降谷零
 ……[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="false"  storage="chara/2/A2-3-2-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ………………要埋了他嗎……[p]
 #降谷零
 不……太便宜他了。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-3-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……要不[p]
 #降谷零
 誰點的火就由誰負責……[p]
 這不過分吧。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-4-5-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 別抱怨喔，赤井。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-6-5-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 要是你中途醒來就更好玩了……[p]
-
 [_tb_end_text]
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_965"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_62"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_start_text mode=1 ]
@@ -231,7 +352,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_972"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_69"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -277,7 +398,7 @@
 [tb_hide_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_978"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_75"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -318,7 +439,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_985"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_82"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -337,7 +458,7 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="suffering-from-pain.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_992"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_89"  ]
 [tb_show_message_window  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
@@ -351,7 +472,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_998"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_96"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -365,7 +486,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_1003"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_101"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [tb_show_message_window  ]
@@ -412,8 +533,8 @@
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="623"  top="142"  width="220"  height="354"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A-1-1.png"  width="520"  height="734"  left="249"  top="-99"  reflect="false"  ]
-[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B-1-1.png"  width="511"  height="719"  left="-30"  top="-72"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A7-1-3.png"  width="390"  height="640"  left="310"  top="0"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="511"  height="719"  left="-30"  top="-72"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈囉，「等等」。[p]
@@ -426,6 +547,9 @@
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君。[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #降谷零
 嗨。[p]
 今天要回去了？[p]
@@ -433,14 +557,19 @@
 [font color=FIREBRICK]啊啊。[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]降谷君，我有話對你說……[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-4-3-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 吃過了嗎？[p]
 晚餐多做了，進來吧。[p]
 [_tb_end_text]
 
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-2-4-H.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]哦……[resetfont][p]
+[font color=FIREBRICK]ホ……[resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -455,34 +584,48 @@
 [free_layermode name="black"]
 [_tb_end_tyrano_code]
 
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-6-D.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 好吃嗎？[p]
+[_tb_end_text]
 
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-2-3.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]非常美味。[resetfont][p]
 
 #
 [font color=TEAL]是赤井呢！我在赤井腳邊打轉，希望他會「不小心」掉一塊香香的肉給我。[p]
-最近赤井常常來家裡呢，每次主人都笑得好－－開心，[p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]但不知道為什麼，主人的笑容讓我有點怕怕的。[resetfont][p]
+[font color=TEAL]最近赤井常常來家裡，每次主人都笑得好－－開心，[p]
+但不知道為什麼，主人的笑容讓我有點怕怕的。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-2-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君，我有話對你說……[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #降谷零
 啊－－對了對了，看電視吧。[p]
-今天是開幕式喔……東‧京‧奧‧運。[p]
+今天是你本來要去戒護的東‧京‧奧‧運開幕式喔。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-1-1+W.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
 #
 [font color=TEAL]啊！就像這樣，赤井有時候會像做錯事一樣垂頭喪氣的。[p]
 如果赤井是跟我一樣的狗狗，現在一定垂著尾巴和耳朵吧。[p]
 為什麼呢～？[resetfont][p]
-
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -502,10 +645,14 @@
 [chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="670"  top="166"  width="220"  height="354"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro2.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="eating_dog.ogg"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-1-3.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 真漂亮。你看，赤井，是流星雨哦。[p]
-#降谷零
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-2-3.png"  ][p]
+[tb_start_text mode=1 ][p]
+#赤井秀一
 啊啊。[p]
 [_tb_end_text]
 
@@ -540,45 +687,96 @@
 當然了，這裡是我的日本呀。[p]
 #
 [font color=TEAL]很好，先馳得點！[resetfont][p]
-
+#降谷零
+那你什麼時候要離開？FBI。[p]
+#
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-4-1+W.png"  ][p]
+[font color=TEAL]完了，自掘墳墓！[resetfont][p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
-#降谷零
-那你什麼時候要離開？FBI。[p]
-#
-[font color=TEAL]完了，自掘墳墓！[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]……晚上十點的飛機。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-5-2.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]聽我說，降谷君，我很抱歉－－[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-4-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 抱歉什麼？[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-3-1+C.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……我那天喝醉了，還對你……[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-3-2.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 哦，那個啊。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-6.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 你說的是在我家喝醉？還是強吻我？還是強吻我之後睡死了，哪一個？[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-9-1+W.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
 #赤井秀一
 [font color=FIREBRICK]我那時失態了。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]但我不是想酒後亂性。[resetfont][p]
+[font color=FIREBRICK]但我不是想趁機酒後亂性。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-6-5-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 是啊，就算你原本想做些什麼，也什麼都沒做成就睡著了嘛。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……不會做的。[p]
 降谷君……我想珍惜你。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-4-1-C.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-5-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]我不是為了東京奧運從美國回來的。[p]
 是為了你，降谷君……我一直想再見你一面。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-3-1-C.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……見到了，然後呢？[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……我的任務期限只到今天，再過幾個小時我就要回美國了。[p]
 但是我想請你等我，我一定會再來這裡，見你、還有哈囉……[resetfont][p]
@@ -592,41 +790,82 @@
 ……[p]
 #降谷零
 是嗎。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-6-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 那我送你一個臨別禮物吧。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-2.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]什麼？[resetfont][p]
 #
-[font color=TEAL]降谷走進房間，過了好一會兒才回來。[p]
-回到赤井身邊，他彎下腰，將掌心握著的某樣東西塞進赤井的口袋－－[p]
-指縫遮得緊密嚴實，赤井只知道是片狀，放進口袋之後沒有明顯的異物感。[resetfont][p]
-#赤井秀一
-[font color=FIREBRICK]這是？[resetfont][p]
-#降谷零
-給你。[p]
-下次見面的時候用得到。[p]
-
+[font color=TEAL]降谷彎下腰，從茶几下的隱密處拿出某樣物品，指縫遮得緊密嚴實。[resetfont][p]
+東西很小，塞進赤井的口袋以後，沒有特別明顯的異物感。[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="take.ogg"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-5-2+W.png"  ]
+[tb_start_text mode=1 ]
+#赤井秀一
+[font color=FIREBRICK]這是？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-4-5.png"  ]
+[tb_start_text mode=1 ]
+#降谷零
+給你。[p]
+下次見面的時候用得到。[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #降谷零
 上了飛機才能拿出來哦。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-1-4.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]哈……[resetfont][p]
+[font color=FIREBRICK]ホ－－這麼神秘？[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-6.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 時間也差不多了，我送你出去。[p]
 到美國再跟我聯絡吧。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-3-1.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……我沒有你的聯絡方式。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-1-5.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 哦呀。[p]
 那我們交換吧，Mail。[p]
+[_tb_end_text]
+
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-3.png"  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]好。[resetfont][p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-1-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 再見，赤井。[p]
 這幾天我很開心。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]我也是。[p]
 我會盡快回來，再聯絡。[resetfont][p]
@@ -634,11 +873,17 @@
 [font color=TEAL]……雖然說盡快，但也不知道詹姆斯什麼時候才會准假。[resetfont][p]
 #
 [font color=TEAL]但已經得到Mail了，接下來的攻略應該會簡單些吧……[resetfont][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]再見，降谷君。[resetfont][p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #降谷零
 快去吧。[p]
-
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -656,13 +901,31 @@
 [tb_start_text mode=1 ]
 #降谷零
 日本到美國……大概12小時吧？[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-1-3-D.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 真期待呢。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-3-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 等他發現那是保險套的表情……[p]
+
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-3.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 好啦，再去跟哈囉玩吧。[p]
 彈吉他給牠聽，再出門散步，晚上再幫牠洗個澡。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-1-6.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 哈囉－－[p]
 [_tb_end_text]
