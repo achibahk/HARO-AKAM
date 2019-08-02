@@ -294,13 +294,13 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-5-5-H.png"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-5-4-S.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 你……你又知道是從家裡跑出去的？[p]
 
 [_tb_end_text]
 
-[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-5-4-S.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 說不定是出來散步時跑掉的啊。[p]
@@ -401,18 +401,20 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [font color=TEAL]降谷嗯了聲，走進涼亭內的長椅坐下。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-9-3-H.png"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="cg_gazebo.jpg"  cross="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1.png"  width="370"  height="645"  left="247"  top="0"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-3-4-C.png"  width="390"  height="640"  left="524"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]椅面寬敞得很，赤井卻硬要擠在降谷邊上，[p]
 二人的肩膀大腿都快要靠在一起。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-3-4-C.png"  ]
-[bg  time="1000"  method="crossfade"  storage="cg_gazebo.jpg"  cross="true"  ]
 [chara_move  name="REI"  anim="true"  time="300"  effect="linear"  wait="true"  left="555"  top="39"  width="390"  height="640"  ]
-[chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="156"  top="-127"  width="679"  height="830"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-4-H.png"  ]
+[chara_move  name="AKAI"  anim="true"  time="300"  effect="linear"  wait="true"  left="334"  top="30"  width="370"  height="645"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-5-2-W.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]在降谷抱怨之前，赤井先開口了。[resetfont][p]
@@ -420,7 +422,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-2-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-2-1-H.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君，聽說狗只有在一種時候會自己跑去躲起來……[resetfont][p]
@@ -433,7 +435,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 如果真的是那樣，他跑去找你幹嘛？[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-3-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-5-1.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]也是，牠昨晚咬我褲管的力道可不小。[p]
@@ -441,7 +443,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-5-3.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-7-4-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-7-2-H.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]等等，你該不會給哈囉看過我的照片吧？[resetfont][p]
@@ -449,7 +451,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-3-4-C.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-8-5-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-6-2.png"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-8-7-S.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -491,8 +493,8 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 *photo_selection
 
 [bg  time="1000"  method="crossfade"  storage="snowuta_002_sample.jpg"  cross="true"  ]
-[chara_show  name="AKAI"  time="1000"  wait="false"  storage="chara/3/B4-8-5-H.png"  width="679"  height="830"  left="156"  top="-127"  reflect="false"  ]
-[chara_show  name="REI"  time="1000"  wait="false"  storage="chara/2/A8-8-7-S.png"  width="390"  height="640"  left="555"  top="39"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-1-1.png"  width="390"  height="640"  left="559"  top="0"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="370"  height="645"  left="291"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷才剛反駁完赤井，腳邊就撞來一個溫熱的物體。[resetfont][p]
@@ -500,15 +502,15 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="0"  top="119"  reflect="false"  ]
 [chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="602"  top="247"  width="220"  height="354"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-8-6.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-8-4-H.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈囉！！！[p]
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-6-6.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-4-3-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-2-3.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]經過一整晚的冒險，哈囉終於重回主人的懷抱。[p]
@@ -524,7 +526,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [stopse  time="1000"  buf="1"  ]
 [stopse  time="1000"  buf="0"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-6-6.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-3-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-6-2.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]哈囉開心地舔著降谷撒嬌，突然出現的哈囉抓走降谷的注意力，[p]
@@ -539,14 +541,14 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-4-2-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-4-2-H.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷提議到自己家稍微歇會兒。而對方也爽快地答應了。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-1-1.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-1-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-8-1-H.png"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]就這樣，降谷帶著哈囉與赤井回到自己家。[resetfont][p]
@@ -719,6 +721,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [stopse  time="1000"  buf="1"  ]
 [stopse  time="1000"  buf="0"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-4-1.png"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-8-7-W.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -763,7 +766,7 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 [_tb_end_text]
 
 [chara_mod  name="HARO"  time="300"  cross="true"  storage="chara/1/haro11.png"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-1-6-W.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-5-1.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]等等，降谷君，那是——[p]
@@ -791,13 +794,13 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 這是你的？[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-5-1-W.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-3-1-C.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-9-1-W.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-2-4-H.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]啊啊。[resetfont][p]

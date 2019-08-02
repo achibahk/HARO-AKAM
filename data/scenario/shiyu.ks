@@ -26,7 +26,7 @@
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_002_sample.jpg"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B4-4-5-H.png"  width="679"  height="830"  left="14"  top="-190"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="370"  height="645"  left="203"  top="0"  reflect="false"  ]
 [chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-4-5.png"  width="390"  height="640"  left="445"  top="0"  reflect="false"  ]
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro7.png"  width="220"  height="354"  left="697"  top="133"  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -41,14 +41,13 @@
 
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="snowuta_037_sample.jpg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]回家！回家！太棒了，我肚子好餓，我們快回家吧！[p]
 我搭著主人的膝蓋，拚命搖尾巴。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-3-2-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-5-2.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]降谷君……[resetfont][p]
@@ -60,7 +59,7 @@
 ……你的衣服也濕了呢。去我家洗個澡吧。[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-7-4-H.png"  ]
+[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B3-2-3.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]可以嗎？[resetfont][p]
@@ -99,7 +98,10 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1711daily11_sample.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Pond.ogg"  ]
-[chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-2-1-H.png"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B4-2-1-H.png"  width="679"  height="830"  left="22"  top="-189"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-4-5.png"  width="390"  height="640"  left="445"  top="0"  reflect="false"  ]
+[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro7.png"  width="220"  height="354"  left="697"  top="133"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……………………[resetfont][p]
@@ -149,6 +151,7 @@
 說點話嘛，主人。我把赤井帶來了，你為什麼都不笑呢？你不喜歡他嗎？[resetfont][p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="snowuta_037_sample.jpg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]雖然身上臭臭的，但他睡著的時候一直握著你的照片喔。[p]
@@ -406,6 +409,7 @@
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-4-2-H.png"  ]
+[tb_image_hide  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="shiyu2.ks"  target="*route_shiyu2"  ]
 [s  ]

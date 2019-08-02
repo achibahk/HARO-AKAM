@@ -237,7 +237,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A2-4-7-W.png"  width="390"  height="640"  left="249"  top="-99"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A2-4-7-W.png"  width="390"  height="640"  left="249"  top="0"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -327,7 +327,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_62"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_76"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_start_text mode=1 ]
@@ -352,7 +352,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_69"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_83"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -398,7 +398,7 @@
 [tb_hide_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_75"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_89"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -439,7 +439,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_82"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_96"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -458,7 +458,7 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="suffering-from-pain.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_89"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_103"  ]
 [tb_show_message_window  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
@@ -472,7 +472,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_96"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_110"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -486,7 +486,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_101"  ]
+[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_115"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [tb_show_message_window  ]
@@ -534,7 +534,7 @@
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro7.png"  ]
 [chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="623"  top="142"  width="220"  height="354"  ]
 [chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A7-1-3.png"  width="390"  height="640"  left="310"  top="0"  reflect="false"  ]
-[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="511"  height="719"  left="-30"  top="-72"  reflect="false"  ]
+[chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="370"  height="645"  left="-30"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈囉，「等等」。[p]
@@ -618,7 +618,7 @@
 今天是你本來要去戒護的東‧京‧奧‧運開幕式喔。[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-1-1+W.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-1-1-W.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
@@ -712,7 +712,7 @@
 抱歉什麼？[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-3-1+C.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-3-1-C.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……我那天喝醉了，還對你……[resetfont][p]
@@ -730,7 +730,7 @@
 你說的是在我家喝醉？還是強吻我？還是強吻我之後睡死了，哪一個？[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-9-1+W.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-9-1-W.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
@@ -808,7 +808,7 @@
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="take.ogg"  ]
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-5-2+W.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-5-2-W.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]這是？[resetfont][p]
@@ -852,7 +852,7 @@
 那我們交換吧，Mail。[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-3.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-6-2.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]好。[resetfont][p]

@@ -101,12 +101,15 @@
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="flipping-pages.ogg"  ]
+[tb_image_show  time="1000"  storage="default/威士忌_斜.png"  width="592"  height="482"  x="184"  y="27"  _clickable_img=""  ]
 [tb_start_text mode=1 ]
 #降谷零
 「重要的東西」……嗎[p]
 
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="300"  height="300"  left="303"  top="-3"  reflect="false"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="scotch.ogg"  fadein="false"  ]
 [chara_mod  name="HARO"  time="600"  cross="true"  storage="chara/1/haro1.png"  ]

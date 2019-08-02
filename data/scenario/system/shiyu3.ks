@@ -8,6 +8,7 @@
 [preload  storage="./data/fgimage/chara/2/A2-3-7.png"  ]
 [preload  storage="./data/fgimage/chara/2/A2-3-1.png"  ]
 [preload  storage="./data/fgimage/chara/2/A2-1-1.png"  ]
+[preload  storage="./data/fgimage/default/威士忌_斜.png"  ]
 [preload  storage="./data/fgimage/chara/1/haro1.png"  ]
 [preload  storage="./data/fgimage/chara/1/haro2.png"  ]
 [preload  storage="./data/fgimage/chara/3/B1-1-2.png"  ]

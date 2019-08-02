@@ -172,7 +172,7 @@
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B2-2-1.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
-[font color=TEAL]再看看還有什麼吧。[resetfont][p]
+[font color=FIREBRICK]再看看還有什麼吧。[resetfont][p]
 #
 [font color=TEAL]降谷的家配置很簡單，赤井不經意地發現了靠在牆邊的吉他。[resetfont][p]
 [_tb_end_text]

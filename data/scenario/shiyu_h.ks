@@ -41,7 +41,7 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_10"  ]
+[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_15"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -110,16 +110,33 @@
 我留著這張照片的理由和你一樣……[p]
 [_tb_end_text]
 
+[wait  time="600"  ]
+[tb_image_show  time="1000"  storage="default/語扉3.jpg"  width="960"  height="640"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Morning_Snowflake.ogg"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="kiss.ogg"  loop="false"  ]
+[tb_start_tyrano_code]
+[layermode name="black" storage=fg0.png color=black time=600]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=1 ]
 #降谷零
 啊、唔……。[p]
 #降谷零
 ……等等……[p]
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[free_layermode name="black"]
+[_tb_end_tyrano_code]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #降谷零
 為什麼會變成這樣……[p]
 #
@@ -134,10 +151,6 @@
 [font color=TEAL]享受著勝利感的同時感動得想哭，一夜未眠的身體此刻卻興奮得超乎想像……甚至有些可怕。[resetfont][p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉3.jpg"  width="960"  height="640"  ]
-[wait  time="600"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 呼、啊……唔。[p]
@@ -150,12 +163,7 @@
 不願意的話，喊停要趁現在喔？[resetfont][p]
 [_tb_end_text]
 
-[tb_image_hide  time="1000"  ]
 [stopse  time="1000"  buf="0"  ]
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4.jpg"  width="960"  height="640"  ]
-[wait  time="600"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 ……[p]
@@ -194,7 +202,6 @@
 [font color=FIREBRICK]為什麼……？[resetfont][p]
 [_tb_end_text]
 
-[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井的聲音揉合了太多情緒。[p]
