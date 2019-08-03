@@ -3,6 +3,7 @@
 [cm  ]
 *route_shiyun
 
+[tb_eval  exp="f.bourbon_check=0"  name="bourbon_check"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷再次為赤井斟酒，赤井卻不喝。[p]

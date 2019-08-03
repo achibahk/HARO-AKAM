@@ -3,6 +3,7 @@
 [cm  ]
 *route_shiyuh
 
+[tb_eval  exp="f.bourbon_check=0"  name="bourbon_check"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_show_message_window  ]
 [chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-5-1.png"  ]
 [tb_start_text mode=1 ]
@@ -512,6 +513,7 @@
 [font color=FIREBRICK]我也是。[resetfont][p]
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [tb_start_tyrano_code]
 [layermode name="black" storage=fg0.png color=black time=600]
 [_tb_end_tyrano_code]
