@@ -739,7 +739,7 @@
 你說的是在我家喝醉？還是強吻我？還是強吻我之後睡死了，哪一個？[p]
 [_tb_end_text]
 
-[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-9-1-W.png"  ]
+[chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B3-9-1-H.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]……[resetfont][p]
@@ -753,7 +753,7 @@
 [font color=FIREBRICK]但我不是想趁機酒後亂性。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-6-5-D.png"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A7-6-6-D.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 是啊，就算你原本想做些什麼，也什麼都沒做成就睡著了嘛。[p]

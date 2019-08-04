@@ -48,7 +48,7 @@
 [preload  storage="./data/fgimage/chara/3/B3-3-1-C.png"  ]
 [preload  storage="./data/fgimage/chara/2/A7-3-2.png"  ]
 [preload  storage="./data/fgimage/chara/2/A7-6-6.png"  ]
-[preload  storage="./data/fgimage/chara/3/B3-9-1-W.png"  ]
+[preload  storage="./data/fgimage/chara/3/B3-9-1-H.png"  ]
 [preload  storage="./data/fgimage/chara/3/B3-6-1.png"  ]
 [preload  storage="./data/fgimage/chara/2/A7-4-1-C.png"  ]
 [preload  storage="./data/fgimage/chara/3/B3-5-1.png"  ]

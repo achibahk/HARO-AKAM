@@ -124,6 +124,10 @@
 [layermode name="black" storage=fg0.png color=black time=600]
 [_tb_end_tyrano_code]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-1.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 啊、唔……。[p]
@@ -135,10 +139,6 @@
 [free_layermode name="black"]
 [_tb_end_tyrano_code]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4-1.jpg"  width="960"  height="640"  ]
-[wait  time="300"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 為什麼會變成這樣……[p]
@@ -154,6 +154,10 @@
 [font color=TEAL]享受著勝利感的同時感動得想哭，一夜未眠的身體此刻卻興奮得超乎想像……甚至有些可怕。[resetfont][p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-2.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 呼、啊……唔。[p]
@@ -170,11 +174,19 @@
 [tb_start_text mode=1 ]
 #降谷零
 ……[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #降谷零
 都到這地步了，假惺惺的話還是省著吧……[p]
 你以為誰都能隨便碰我嗎？[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-3.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]原本在身上游移的撫摸一頓，隨後傳來赤井的低笑。[resetfont][p]
@@ -199,8 +211,24 @@
 ……？[p]
 降谷君……[p]
 你……裡面沒穿嗎？[resetfont][p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-4.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #降谷零
 ……[p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-1.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]為什麼……？[resetfont][p]
 [_tb_end_text]
@@ -227,10 +255,6 @@
 [font color=TEAL]赤井拉著他的手向下探－－[resetfont][p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4-2.jpg"  width="960"  height="640"  ]
-[wait  time="300"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="hitting-bed-with-pillow1.ogg"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -247,6 +271,14 @@
 #
 [font color=TEAL]狙擊手的大掌從褲緣探進來，分別握住渾圓的臀部，恣意揉捏。[p]
 褲子慢慢鬆脫，臀部被整個向上提，去迎接男人燙熱的部位。[resetfont][p]
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-4.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 #降谷零
 唔……[p]
 [_tb_end_text]
@@ -334,7 +366,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4-3.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/語扉4-5.jpg"  width="960"  height="640"  ]
 [wait  time="300"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="suffering-from-pain.ogg"  loop="true"  fadein="true"  ]
@@ -388,11 +420,6 @@
 
 [_tb_end_text]
 
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4-4.jpg"  width="960"  height="640"  ]
-[wait  time="300"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈……！[p]
@@ -439,10 +466,6 @@
 就要被我插著屁股高潮了哦……[resetfont][p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4-5.jpg"  width="960"  height="640"  ]
-[wait  time="300"  ]
-[tb_show_message_window  ]
 [stopse  time="1000"  buf="3"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -486,15 +509,19 @@
 #
 [font color=TEAL]赤井忽然加大力道，同時緊緊抱住他。[resetfont][p]
 [font color=TEAL]突如其來的緊迫感與一口氣頂到深處的刺激，在降谷體內炸開煙火似的愉悅。[resetfont][p]
-#降谷零
-啊……啊！[p]
+
 [_tb_end_text]
 
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_hide_message_window  ]
 [tb_image_show  time="1000"  storage="default/語扉4-6.jpg"  width="960"  height="640"  ]
 [wait  time="300"  ]
 [tb_show_message_window  ]
-[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#降谷零
+啊……啊！[p]
+[_tb_end_text]
+
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
 [stopse  time="1000"  buf="3"  fadeout="true"  ]
 [tb_start_text mode=1 ]
