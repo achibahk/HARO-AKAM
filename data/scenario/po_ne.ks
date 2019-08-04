@@ -191,17 +191,20 @@
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-6-1.png"  ]
 [tb_start_text mode=1 ]
-突然見到那一向堅強自信、受眾人仰賴的「降谷零」在自己眼前展現脆弱的一面，[p]
+#
+[font color=TEAL]突然見到那一向堅強自信、受眾人仰賴的「降谷零」在自己眼前展現脆弱的一面，[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-7-1.png"  ]
 [tb_start_text mode=1 ]
-赤井頓時有些不知所措，卻也在當下展現平時因職業關係而訓練有素的情緒控制。[p]
+#
+[font color=TEAL]赤井頓時有些不知所措，卻也在當下展現平時因職業關係而訓練有素的情緒控制。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-1-1.png"  ]
 [tb_start_text mode=1 ]
-他很快地冷靜下來，並決定說出一切……[resetfont][p]
+#
+[font color=TEAL]他很快地冷靜下來，並決定說出一切……[resetfont][p]
 
 [_tb_end_text]
 
@@ -394,7 +397,7 @@
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-1-4.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]沒錯。[p]
+[font color=FIREBRICK]沒錯。[resetfont][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]
@@ -417,18 +420,20 @@
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-5-6.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
-[font color=FIREBRICK]不是這樣的，降谷君。[p]
+[font color=FIREBRICK]不是這樣的，降谷君。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-5-6.png"  ]
 [tb_start_text mode=1 ]
-我之所以隨身帶著這張照片，[p]
-並不是為了他，而是……[p]
+#赤井秀一
+[font color=FIREBRICK]我之所以隨身帶著這張照片，[p]
+並不是為了他，而是……[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-5-2.png"  ]
 [tb_start_text mode=1 ]
-因為你。[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]因為你。[resetfont][p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
@@ -442,12 +447,13 @@
 [tb_start_text mode=1 ]
 #赤井秀一
 [font color=FIREBRICK]其實那天在天台做的決定，並不完全是為了鞏固大局，[p]
-有一半的原因是為了保護你。[p]
+有一半的原因是為了保護你。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-5-4.png"  ]
 [tb_start_text mode=1 ]
-我捨不得看你知道真相後的表情……[resetfont][p]
+#赤井秀一
+[font color=FIREBRICK]我捨不得看你知道真相後的表情……[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A5-3-5.png"  ]

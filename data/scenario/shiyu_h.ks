@@ -42,9 +42,10 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_15"  ]
+[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_16"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="flipping-pages.ogg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]拿著照片的那隻手覆住了赤井的眼睛。[resetfont][p]
@@ -94,7 +95,6 @@
 #降谷零
 ……[p]
 
-
 [_tb_end_text]
 
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-5-3.png"  ]
@@ -104,15 +104,17 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉_2.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/語扉_2.jpg"  width="960"  height="640"  name="img_33"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 我留著這張照片的理由和你一樣……[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉_3.jpg"  width="480"  height="320"  ]
+[tb_image_show  time="1000"  storage="default/語扉_3.jpg"  width="960"  height="640"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]

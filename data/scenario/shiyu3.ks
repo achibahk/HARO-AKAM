@@ -559,6 +559,7 @@
 鑿得渾圓的冰球墜入玻璃杯敲出響亮的音色，遞到赤井面前，倒入半杯波本。[resetfont][p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="pour-water1.ogg"  ]
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B1-5-2.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -621,6 +622,7 @@
 [s  ]
 *shiyu_coffee3
 
+[playse  volume="100"  time="1000"  buf="0"  storage="ceramic.ogg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]赤井把餘下的咖啡都喝光了。[resetfont][p]
