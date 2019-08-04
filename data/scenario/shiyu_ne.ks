@@ -328,7 +328,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_76"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_自摸_1.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_76"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_start_text mode=1 ]
@@ -353,7 +353,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="cloth.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_83"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_自摸_2.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_83"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -399,7 +399,7 @@
 [tb_hide_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_89"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_抓赤井手_1.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_89"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -440,7 +440,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_96"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_抓赤井手_2.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_96"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -459,10 +459,11 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="suffering-from-pain.ogg"  ]
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_3.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_103"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_抓赤井手_3.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_103"  ]
 [tb_show_message_window  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="gloss.ogg"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_抓赤井手_4.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_110"  ]
 [tb_start_text mode=1 ]
 #降谷零
 ……唔……！[p]
@@ -473,7 +474,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_抓赤井撸_2.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_110"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_抓赤井手_2.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_110"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -487,7 +488,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉BE_自摸_1.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_115"  ]
+[tb_image_show  time="1000"  storage="default/妃事件圖_自摸_1.jpg"  width="960"  height="639"  x="0"  y="0"  _clickable_img=""  name="img_115"  ]
 [stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [tb_show_message_window  ]

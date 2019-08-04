@@ -104,7 +104,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉2.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/語扉_2.jpg"  width="960"  height="640"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -112,7 +112,7 @@
 [_tb_end_text]
 
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉3.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/語扉_3.jpg"  width="480"  height="320"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="snowuta_018y_sample.jpg"  ]

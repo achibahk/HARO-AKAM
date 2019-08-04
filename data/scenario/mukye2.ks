@@ -18,7 +18,7 @@
 
 [chara_new name="REI" storage="chara/2/A4-1-1.png" jname="降谷零"]
 
-[chara_new name="AKAI" storage="chara/3/B-1-1.png" jname="赤井秀一"]
+[chara_new name="AKAI" storage="chara/3/B1-1-1.png" jname="赤井秀一"]
 
 [chara_new name="SCOTCH" storage="chara/4/scotch.png" jname="小光球"]
 [_tb_end_tyrano_code]

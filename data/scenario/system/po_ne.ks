@@ -9,7 +9,6 @@
 [preload  storage="./data/fgimage/chara/3/B5-6-1.png"  ]
 [preload  storage="./data/fgimage/chara/3/B5-6-2.png"  ]
 [preload  storage="./data/fgimage/chara/2/A5-2-2.png"  ]
-[preload  storage="./data/fgimage/default/波BE_彈吉他.jpg"  ]
 [preload  storage="./data/fgimage/chara/2/A5-3-2.png"  ]
 [preload  storage="./data/fgimage/chara/2/A5-5-2.png"  ]
 [preload  storage="./data/fgimage/chara/2/A5-4-1.png"  ]

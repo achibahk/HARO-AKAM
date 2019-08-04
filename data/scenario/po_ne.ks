@@ -126,10 +126,6 @@
 [font color=TEAL]降谷往床上一坐，伸手接過赤井懷裡的吉他，同樣不自覺地撥弄起琴弦。[resetfont][p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/波BE_彈吉他.jpg"  width="960"  height="640"  name="img_44"  ]
-[wait  time="3000"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="guitar_music.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #降谷零
