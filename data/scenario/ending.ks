@@ -23,7 +23,7 @@
 [tb_ptext_show  x="39"  y="503"  size="30"  color="0xffffff"  time="300"  text="Plurk：koueiieuok"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [wait  time="4000"  ]
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/小墨.jpg"  width="960"  height="640"  name="img_22"  ]
+[tb_image_show  time="1000"  storage="default/小墨-2.jpg"  width="960"  height="640"  name="img_22"  ]
 [tb_ptext_show  x="672"  y="79"  size="30"  color="0xffffff"  time="1200"  text="【支線編劇】"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [tb_ptext_show  x="733"  y="142"  size="30"  color="0xffffff"  time="1200"  text="墨兒"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]
 [tb_ptext_show  x="634"  y="192"  size="30"  color="0xffffff"  time="300"  text="Plurk：star_fall22"  face="undefined"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="tada"  out_effect="fadeOut"  ]

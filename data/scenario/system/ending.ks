@@ -1,6 +1,6 @@
 [preload  storage="./data/bgimage/CG_night.jpg"  ]
 [preload  storage="./data/fgimage/default/米事件圖.jpg"  ]
-[preload  storage="./data/fgimage/default/小墨.jpg"  ]
+[preload  storage="./data/fgimage/default/小墨-2.jpg"  ]
 [preload  storage="./data/fgimage/default/語扉4-1.jpg"  ]
 [preload  storage="./data/fgimage/default/波HE_擁抱.jpg"  ]
 [preload  storage="./data/bgimage/CG_sky3.jpg"  ]
