@@ -34,5 +34,4 @@
 [preload  storage="./data/fgimage/chara/2/A6-3-5-C.png"  ]
 [preload  storage="./data/fgimage/default/小墨.jpg"  ]
 [preload  storage="./data/fgimage/default/威士忌合照.jpg"  ]
-[preload  storage="./data/fgimage/default/scotch.png"  ]
 [return]

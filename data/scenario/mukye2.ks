@@ -18,7 +18,7 @@
 
 [chara_new name="REI" storage="chara/2/A4-1-1.png" jname="降谷零"]
 
-[chara_new name="AKAI" storage="chara/3/B1-1-1.png" jname="赤井秀一"]
+[chara_new name="AKAI" storage="chara/3/B-1-1.png" jname="赤井秀一"]
 
 [chara_new name="SCOTCH" storage="chara/4/scotch.png" jname="小光球"]
 [_tb_end_tyrano_code]
@@ -554,7 +554,8 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/小墨.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_192"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
+[tb_image_show  time="1000"  storage="default/小墨.jpg"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_466"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -562,24 +563,18 @@
 [font color=FIREBRICK]那麼，我走了。再見，降谷君。[resetfont][p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷第一次看到赤井笑得如此開懷，他看得失神，[p]
 沒注意到那張臉已經湊了過來，溫熱的臉頰肌膚貼上他的。[p]
-
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
-[tb_start_text mode=1 ]
-#
-[font color=TEAL]降谷只覺得心跳加速，臉頰也不爭氣地紅了起來。[resetfont][p]
+降谷只覺得心跳加速，臉頰也不爭氣地紅了起來。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro1.png"  width="373"  height="600"  left="217"  top="36"  reflect="false"  ]
 [chara_show  name="SCOTCH"  time="1000"  wait="true"  storage="chara/4/scotch.png"  width="300"  height="300"  left="65"  top="21"  reflect="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="scotch.ogg"  ]
 [tb_start_text mode=1 ]
 #哈囉
 [font color=DARKMAGENTA]萬歲！太好了！小光球，謝謝你！[p]
@@ -592,11 +587,9 @@
 [font color=DARKKHAKI]……♪~[resetfont][p]
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="scotch_guitar3.ogg"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/威士忌合照.jpg"  width="960"  height="715"  x="0"  y="0"  _clickable_img=""  name="img_210"  ]
-[tb_image_show  time="1000"  storage="default/scotch.png"  width="300"  height="300"  x="385"  y="185"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/威士忌合照.jpg"  width="960"  height="715"  x="0"  y="0"  _clickable_img=""  name="img_480"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -606,6 +599,7 @@
 最終也消失得無影無蹤。[resetfont][p]
 [_tb_end_text]
 
+[chara_hide  name="SCOTCH"  time="2000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="ending.ks"  target="*ending"  ]

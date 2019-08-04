@@ -186,7 +186,7 @@
 [chara_mod  name="REI"  time="300"  cross="true"  storage="chara/2/A5-4-1-Y.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]最後，降谷還是不禁落下了淚，氣氛變得凝重起來。[p]
+[font color=TEAL]最後，降谷還是不禁落下了淚，氣氛變得凝重起來。[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B5-6-1.png"  ]

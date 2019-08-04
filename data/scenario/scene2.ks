@@ -284,7 +284,6 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 #降谷零
 重要物品？你半夜門不關？還讓狗跑出去？[p]
 
-
 [_tb_end_text]
 
 [chara_mod  name="AKAI"  time="300"  cross="false"  storage="chara/3/B4-9-3-H-W.png"  ]
@@ -493,15 +492,15 @@ FBI的推理都這麼跳躍又充滿漏洞嗎？[p]
 *photo_selection
 
 [bg  time="1000"  method="crossfade"  storage="snowuta_002_sample.jpg"  cross="true"  ]
-[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-1-1.png"  width="390"  height="640"  left="559"  top="0"  reflect="false"  ]
 [chara_show  name="AKAI"  time="1000"  wait="true"  storage="chara/3/B3-2-1-H.png"  width="370"  height="645"  left="291"  top="0"  reflect="false"  ]
+[chara_show  name="REI"  time="1000"  wait="true"  storage="chara/2/A8-1-1.png"  width="390"  height="640"  left="559"  top="0"  reflect="false"  ]
+[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="13"  top="180"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 [font color=TEAL]降谷才剛反駁完赤井，腳邊就撞來一個溫熱的物體。[resetfont][p]
 [_tb_end_text]
 
-[chara_show  name="HARO"  time="1000"  wait="true"  storage="chara/1/haro6.png"  width="220"  height="354"  left="0"  top="119"  reflect="false"  ]
-[chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="602"  top="247"  width="220"  height="354"  ]
+[chara_move  name="HARO"  anim="true"  time="300"  effect="linear"  wait="true"  left="609"  top="218"  width="220"  height="354"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-8-6.png"  ]
 [tb_start_text mode=1 ]

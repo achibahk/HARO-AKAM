@@ -33,7 +33,7 @@
 #哈囉
 [font color=DARKMAGENTA]各位玩家，我是哈囉。[p]
 跟大家介紹遊戲的操作方式，要聽好了喔。[p]
-按下最右邊的MENU按鈕，就可以進行DATA SAVE或DATA LOAD。[p]
+下方的按鈕可以進行DATA SAVE或DATA LOAD。[p]
 把你的滑鼠游標移到畫面右邊，將滾輪向上滾動，就會出現BACKLOG。[p]
 按一下右鍵可以隱藏文字欄，再按一下右鍵，文字欄就會回來囉！[resetfont][p]
 [_tb_end_text]
@@ -434,12 +434,12 @@ END。[resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="HARO"  time="1000"  wait="true"  pos_mode="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Nostalgic_Piano.ogg"  ]
 [tb_start_tyrano_code]
 [bg storage="snowuta_017n_sample.jpg" time="100"]
 [filter layer="base" sepia=70]
 [_tb_end_tyrano_code]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="Nostalgic_Piano.ogg"  ]
 [tb_start_text mode=1 ]
 #
 [font color=darkred]之後與夥伴回到美國總部，向上級報告一切經過，處理後續事情。[p]

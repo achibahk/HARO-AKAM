@@ -434,7 +434,7 @@
 [font color=TEAL]赤井這傢伙，老是把手插在口袋裡，[p]
 彷彿再大的事情都能單手解決。[resetfont][p]
 [font color=TEAL]那麼不可一世的赤井秀一……[p]
-現在正無知無覺地躺在他的床上，慣於射擊的手更被他借來自瀆。[resetfont][p]
+現在正無知無覺地躺在他的床上，故作神祕的右手更被他借來自瀆。[resetfont][p]
 
 [_tb_end_text]
 
