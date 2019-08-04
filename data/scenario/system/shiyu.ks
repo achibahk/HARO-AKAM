@@ -27,7 +27,6 @@
 [preload  storage="./data/fgimage/chara/3/B4-5-2-H.png"  ]
 [preload  storage="./data/fgimage/chara/2/A8-3-1.png"  ]
 [preload  storage="./data/fgimage/chara/2/A8-7-5.png"  ]
-[preload  storage="./data/fgimage/chara/2/A8-1-5.png"  ]
 [preload  storage="./data/fgimage/chara/3/B4-2-3-H.png"  ]
 [preload  storage="./data/fgimage/chara/2/A8-1-3-C.png"  ]
 [preload  storage="./data/fgimage/default/scotch.png"  ]

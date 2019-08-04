@@ -42,7 +42,7 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_16"  ]
+[tb_image_show  time="600"  storage="default/語扉1.jpg"  width="960"  height="640"  name="img_16"  ]
 [wait  time="600"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="flipping-pages.ogg"  ]
@@ -104,7 +104,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉_2.jpg"  width="960"  height="640"  name="img_33"  ]
+[tb_image_show  time="600"  storage="default/語扉_2.jpg"  width="960"  height="640"  name="img_33"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -113,7 +113,7 @@
 
 [playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
 [wait  time="600"  ]
-[tb_image_show  time="1000"  storage="default/語扉_3.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="600"  storage="default/語扉_3.jpg"  width="960"  height="640"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="kiss_once.ogg"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -136,7 +136,7 @@
 [_tb_end_tyrano_code]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/語扉4.jpg"  width="960"  height="640"  ]
+[tb_image_show  time="1000"  storage="default/語扉4-1.jpg"  width="960"  height="640"  ]
 [wait  time="300"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -227,6 +227,10 @@
 [font color=TEAL]赤井拉著他的手向下探－－[resetfont][p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-2.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="hitting-bed-with-pillow1.ogg"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -329,6 +333,10 @@
 我喜歡你……[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-3.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="suffering-from-pain.ogg"  loop="true"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -381,6 +389,10 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-4.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #降谷零
 哈……！[p]
@@ -427,6 +439,10 @@
 就要被我插著屁股高潮了哦……[resetfont][p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-5.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [stopse  time="1000"  buf="3"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -474,6 +490,10 @@
 啊……啊！[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/語扉4-6.jpg"  width="960"  height="640"  ]
+[wait  time="300"  ]
+[tb_show_message_window  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [stopse  time="1000"  buf="2"  fadeout="true"  ]
 [stopse  time="1000"  buf="3"  fadeout="true"  ]

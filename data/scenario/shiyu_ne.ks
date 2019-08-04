@@ -42,7 +42,7 @@
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-1-1.png"  ]
 [tb_start_text mode=1 ]
 #
-[font color=TEAL]降谷還真的挽起袖子調起酒來，[p]
+[font color=TEAL]降谷還真的調起酒來，[p]
 先是選了裸麥威士忌作為基酒，認真地挑選適合搭配的廠牌與比例。[resetfont][p]
 [_tb_end_text]
 
@@ -157,6 +157,11 @@
 [font color=TEAL]降谷的聲音很快轉為驚愕。[p]
 鍍著酒香的唇覆上來，僅僅只是嘴唇上殘留的、[p]
 這般不值一提的酒氣，竟能將他醺得幾乎醉倒。[resetfont][p]
+
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="kiss.ogg"  ]
+[tb_start_text mode=1 ]
 [font color=TEAL]赤井泛著熱氣的手掌按住他的頸，意外的好燙。[p]
 槍繭在肌膚上摩娑，激起陣陣顫慄，大膽地向後移動－－[p]
 撐住背、撐住腰，稍一使力，便將他壓進沙發。[resetfont][p]
@@ -165,6 +170,7 @@
 另一手開始在腰間游移，不只鑽進上衣覆蓋的地方，甚至往腰際線以下進攻……[resetfont][p]
 [_tb_end_text]
 
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A2-8-2-S.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
@@ -182,6 +188,7 @@
 你……在說什麼傻話……[p]
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
 [chara_mod  name="AKAI"  time="00"  cross="false"  storage="chara/3/B1-6-4-C.png"  ]
 [tb_start_text mode=1 ]
 #赤井秀一
@@ -244,7 +251,7 @@
 #降谷零
 呼……[p]
 #
-[font color=TEAL]降谷費了一番功夫才把赤井抬進房間。[resetfont][p]
+[font color=TEAL]降谷把烘乾的衣服套回赤井身上，又費了一番功夫才把赤井抬進房間。[resetfont][p]
 [font color=TEAL]他已經捏過赤井的人中、拉過耳朵、用盡力氣搖晃全身－－所有想得到的辦法，都沒辦法把人喚醒。[resetfont][p]
 #降谷零
 都是成年人了，為什麼會把自己喝得那麼醉啊?![p]

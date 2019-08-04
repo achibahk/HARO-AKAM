@@ -164,6 +164,11 @@
 [font color=FIREBRICK]……[p]
 ……真聰明的狗。[resetfont][p]
 
+
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A8-1-1.png"  ]
+[tb_start_text mode=1 ]
 #降谷零
 是啊。[p]
 我還查不出來牠到底怎麼跑出去的，明明門窗都鎖好了。[p]
@@ -276,7 +281,7 @@
 我說過吧。[p]
 [_tb_end_text]
 
-[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-1-5.png"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-1-1.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 我很感謝你做的一切。[p]
@@ -382,7 +387,7 @@
 [font color=FIREBRICK]牠真的很喜歡你。[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-1-5.png"  ]
+[chara_mod  name="REI"  time="300"  cross="false"  storage="chara/2/A8-1-1.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 ……[p]
