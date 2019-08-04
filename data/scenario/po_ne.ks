@@ -127,12 +127,23 @@
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="guitar_music.ogg"  loop="false"  ]
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A5-4-1.png"  ]
 [tb_start_text mode=1 ]
 #降谷零
 我常在房間彈著吉他，所以每次聽到吉他聲就會想起那個人，[p]
-彈的也都是他常彈的那些曲子。[p]
-哈囉都會靜靜坐在旁邊，有次還彈了《故郷》給牠聽呢……[p]
 
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A5-4-2.png"  ]
+[tb_start_text mode=1 ]
+#降谷零
+彈的也都是他常彈的那些曲子。[p]
+[_tb_end_text]
+
+[chara_mod  name="REI"  time="600"  cross="true"  storage="chara/2/A5-4-5.png"  ]
+[tb_start_text mode=1 ]
+#降谷零
+哈囉都會靜靜坐在旁邊，有次還彈了《故郷》給牠聽呢……[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
