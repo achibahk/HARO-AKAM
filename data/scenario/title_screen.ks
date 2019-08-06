@@ -48,4 +48,6 @@
 window.open("https://docs.google.com/forms/d/16peN2wzQEH1anlECeXQRzraEGjcl9zTT7a1y40DQve4/");
 [endscript]
 
+[jump  storage="title_screen.ks"  target="*title"  ]
+
 [s  ]
